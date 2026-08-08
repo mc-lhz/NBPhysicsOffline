@@ -1,0 +1,3474 @@
+[
+  {
+    "classname": "ElecResistance",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": -92.227,
+          "y": -31.3554
+        },
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": 46,
+          "y": -31.3554
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElecSinglePloeSingleThrowSwitch",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": 13.431727930687366,
+          "y": -10.758984022731504
+        },
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": 193.2711511596755,
+          "y": -9.292105263157886
+        },
+        {
+          "glow": "rectglow",
+          "parent": "dao",
+          "x": 133.3329,
+          "y": -23.5188
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElecSinglePloeDoubleThrowSwitch",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": 13.27,
+          "y": 26.33
+        },
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": 132.56,
+          "y": 26.33
+        },
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": 315,
+          "y": 26.33
+        },
+        {
+          "glow": "rectglow",
+          "parent": "dao",
+          "x": 132.019,
+          "y": -23.1502
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElecLampAndHolder",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": -93.0378,
+          "y": -26.5345
+        },
+        {
+          "glow": "postertglow",
+          "x": 45.21892,
+          "y": -25.72927
+        }
+      ],
+      [
+        {
+          "glow": "postertglow",
+          "x": 41.76583182,
+          "y": -27.13449999
+        },
+        {
+          "glow": "postertglow",
+          "x": -97.477843,
+          "y": -27.13449999
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElecLampAndHolderRes",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": -93.0378,
+          "y": -26.5345
+        },
+        {
+          "glow": "postertglow",
+          "x": 45.21892,
+          "y": -25.72927
+        }
+      ],
+      [
+        {
+          "glow": "postertglow",
+          "x": 41.76583182,
+          "y": -27.13449999
+        },
+        {
+          "glow": "postertglow",
+          "x": -97.477843,
+          "y": -27.13449999
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "DryBattery",
+    "arr": [
+      [
+        {
+          "glow": "dianchiL",
+          "parent": "bg.bgBack",
+          "x": -71.78444,
+          "y": -17.0137
+        },
+        {
+          "glow": "dianchiR",
+          "parent": "bg.bgBack",
+          "x": 34.762244,
+          "y": -18.44386
+        }
+      ],
+      [
+        {
+          "glow": "dianchiL",
+          "parent": "bg.bgBack",
+          "x": -71.377,
+          "y": -17.4143
+        },
+        {
+          "glow": "dianchiR",
+          "parent": "bg.bgBack",
+          "x": 35.8395,
+          "y": -19.457
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "BatteryHolder",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": -109.89,
+          "y": -17.8164
+        },
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": 64.95734,
+          "y": -16.802
+        }
+      ],
+      [
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": -173.207386,
+          "y": -11.786355
+        },
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": 123.8954,
+          "y": -11.786355
+        }
+      ],
+      [
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": -249.078,
+          "y": -11.29734
+        },
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": 202.4932,
+          "y": -11.29734
+        }
+      ],
+      [
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": 103.16,
+          "y": -33.54
+        },
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": 111.6,
+          "y": 0.13
+        }
+      ],
+      [
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": 103.16,
+          "y": -33.54
+        },
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": 111.6,
+          "y": 0.13
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "InlandAmpereMeter",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": -91.82708,
+          "y": 45.62724
+        },
+        {
+          "glow": "postertglow",
+          "x": -26.14982,
+          "y": 46.1906546
+        },
+        {
+          "glow": "postertglow",
+          "x": 40.5381,
+          "y": 46.1906546
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "InlandVoltmeter",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": -92.0217,
+          "y": 46.822
+        },
+        {
+          "glow": "postertglow",
+          "x": -26.33368,
+          "y": 46.822
+        },
+        {
+          "glow": "postertglow",
+          "x": 39.94357,
+          "y": 46.822
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElecAmpereMeter",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": -84.730208,
+          "y": 47.6115628
+        },
+        {
+          "glow": "postertglow",
+          "x": 41.5651,
+          "y": 47.8011
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "SensitivityGalvanometer",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": -84.93,
+          "y": 46.78
+        },
+        {
+          "glow": "postertglow",
+          "x": 44.0027777,
+          "y": 47.022
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "UniversalMetre",
+    "arr": [
+      [
+        {
+          "glow": "studentglow",
+          "x": -91.427,
+          "y": 93.15517
+        },
+        {
+          "glow": "studentglow",
+          "x": 47.04,
+          "y": 93.976
+        },
+        {
+          "glow": "shuziA",
+          "x": -80.5343,
+          "y": -81.9073
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElecSlideRheostat",
+    "arr": [
+      [
+        {
+          "glow": "huadonga",
+          "parent": "drager",
+          "x": -34.8268,
+          "y": -53.9074
+        },
+        {
+          "glow": "posterrglow",
+          "parent": "componentBox",
+          "x": 191.145659,
+          "y": -81.0454
+        },
+        {
+          "glow": "posterrglow",
+          "parent": "componentBox",
+          "x": 166.8,
+          "y": -1.62
+        },
+        {
+          "glow": "posterlglow",
+          "parent": "componentBox",
+          "x": -231.8569,
+          "y": -80.029
+        },
+        {
+          "glow": "posterlglow",
+          "parent": "componentBox",
+          "x": -207.1663,
+          "y": -2.026
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElecResistanceBox",
+    "arr": [
+      [
+        {
+          "glow": "dianzuxiangGlow",
+          "x": -93.24861,
+          "y": -126.409
+        },
+        {
+          "glow": "dianzuxiangGlow",
+          "x": 37.1059,
+          "y": -126.409
+        },
+        {
+          "glow": "dianzuxiangGlow",
+          "x": -93.24861,
+          "y": -6.2888
+        },
+        {
+          "glow": "dianzuxiangGlow",
+          "x": 37.1059,
+          "y": -6.2888
+        },
+        {
+          "glow": "diannengglow",
+          "x": -110,
+          "y": 98.354
+        },
+        {
+          "glow": "diannengglow",
+          "x": 60.458469999999984,
+          "y": 97.954656
+        }
+      ],
+      [
+        {
+          "glow": "dianzuxiangGlow",
+          "x": -93.24861,
+          "y": -126.409
+        },
+        {
+          "glow": "dianzuxiangGlow",
+          "x": 37.1059,
+          "y": -126.409
+        },
+        {
+          "glow": "dianzuxiangGlow",
+          "x": -157.91829838694684,
+          "y": -5.797253975622298
+        },
+        {
+          "glow": "dianzuxiangGlow",
+          "x": -30.38005104830186,
+          "y": -5.797253975622298
+        },
+        {
+          "glow": "dianzuxiangGlow",
+          "x": 100.5,
+          "y": -5.797253975622298
+        },
+        {
+          "glow": "diannengglow",
+          "x": -112.7,
+          "y": 98.354
+        },
+        {
+          "glow": "diannengglow",
+          "x": 57.258,
+          "y": 97.954656
+        }
+      ],
+      [
+        {
+          "glow": "dianzuxiangGlow",
+          "x": -157.91829838694684,
+          "y": -126.409
+        },
+        {
+          "glow": "dianzuxiangGlow",
+          "x": -30.38005104830186,
+          "y": -126.409
+        },
+        {
+          "glow": "dianzuxiangGlow",
+          "x": 100.5,
+          "y": -126.409
+        },
+        {
+          "glow": "dianzuxiangGlow",
+          "x": -157.91829838694684,
+          "y": -5.797253975622298
+        },
+        {
+          "glow": "dianzuxiangGlow",
+          "x": -30.38005104830186,
+          "y": -5.797253975622298
+        },
+        {
+          "glow": "dianzuxiangGlow",
+          "x": 100.5,
+          "y": -5.797253975622298
+        },
+        {
+          "glow": "diannengglow",
+          "x": -111.7,
+          "y": 98.354
+        },
+        {
+          "glow": "diannengglow",
+          "x": 58.458,
+          "y": 97.954656
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ForWire",
+    "arr": [
+      [
+        {
+          "glow": "studentglow",
+          "x": -81,
+          "y": -97.89
+        },
+        {
+          "glow": "studentglow",
+          "x": -81,
+          "y": -53.37
+        },
+        {
+          "glow": "studentglow",
+          "x": -81,
+          "y": -8.2
+        },
+        {
+          "glow": "studentglow",
+          "x": -81,
+          "y": 36.4
+        },
+        {
+          "glow": "studentglow",
+          "x": 99.389,
+          "y": -97.89
+        },
+        {
+          "glow": "studentglow",
+          "x": 54,
+          "y": -53.37
+        },
+        {
+          "glow": "studentglow",
+          "x": 9.2,
+          "y": -8.2
+        },
+        {
+          "glow": "studentglow",
+          "x": -36.2,
+          "y": 36.4
+        }
+      ],
+      [
+        {
+          "glow": "studentglow",
+          "x": -81,
+          "y": -97.89
+        },
+        {
+          "glow": "studentglow",
+          "x": -81,
+          "y": -53.37
+        },
+        {
+          "glow": "studentglow",
+          "x": -81,
+          "y": -8.2
+        },
+        {
+          "glow": "studentglow",
+          "x": -81,
+          "y": 36.4
+        },
+        {
+          "glow": "studentglow",
+          "x": 99.4,
+          "y": -97.89
+        },
+        {
+          "glow": "studentglow",
+          "x": 99.4,
+          "y": -53.37
+        },
+        {
+          "glow": "studentglow",
+          "x": 99.4,
+          "y": -8.2
+        },
+        {
+          "glow": "studentglow",
+          "x": 99.4,
+          "y": 36.4
+        }
+      ],
+      [
+        {
+          "glow": "studentglow",
+          "x": -81,
+          "y": -97.89
+        },
+        {
+          "glow": "studentglow",
+          "x": -81,
+          "y": -53.37
+        },
+        {
+          "glow": "studentglow",
+          "x": -81,
+          "y": -8.2
+        },
+        {
+          "glow": "studentglow",
+          "x": -81,
+          "y": 36.4
+        },
+        {
+          "glow": "studentglow",
+          "x": 99.4,
+          "y": -97.89
+        },
+        {
+          "glow": "studentglow",
+          "x": 99.4,
+          "y": -53.37
+        },
+        {
+          "glow": "studentglow",
+          "x": 99.4,
+          "y": -8.2
+        },
+        {
+          "glow": "studentglow",
+          "x": 99.4,
+          "y": 36.4
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElecBuzzer",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": -92.085819,
+          "y": -21.011
+        },
+        {
+          "glow": "postertglow",
+          "x": 45.643,
+          "y": -19.6
+        }
+      ],
+      [
+        {
+          "glow": "postertglow",
+          "x": 43.0869,
+          "y": -20.484
+        },
+        {
+          "glow": "postertglow",
+          "x": -94.961,
+          "y": -20.484991
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElecMotors",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": 8.32,
+          "y": 27.26
+        },
+        {
+          "glow": "postertglow",
+          "x": 151.9463,
+          "y": 27.26
+        }
+      ],
+      [
+        {
+          "glow": "postertglow",
+          "x": -96.388,
+          "y": 19.31
+        },
+        {
+          "glow": "postertglow",
+          "x": 46.028,
+          "y": 19.31
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElecResFlask",
+    "arr": [
+      [
+        {
+          "glow": "shaopingGlow",
+          "x": -43.28675,
+          "y": -118.574
+        },
+        {
+          "glow": "shaopingGlow",
+          "x": -11.6759,
+          "y": -118.574
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "Battery",
+    "arr": [
+      [
+        {
+          "glow": "lowPosterGlow",
+          "x": -73.71981,
+          "y": -104.606
+        },
+        {
+          "glow": "lowPosterGlow",
+          "x": 16.5767444,
+          "y": -104.606
+        }
+      ],
+      [
+        {
+          "glow": "lowPosterGlow",
+          "x": 15.822,
+          "y": -103.9549999
+        },
+        {
+          "glow": "lowPosterGlow",
+          "x": 16.5539,
+          "y": -81.035
+        }
+      ],
+      [
+        {
+          "glow": "lowPosterGlow",
+          "x": -69.534373,
+          "y": -115.6499999
+        },
+        {
+          "glow": "lowPosterGlow",
+          "x": 16.748528,
+          "y": -72.337
+        }
+      ],
+      [
+        {
+          "glow": "lowPosterGlow",
+          "x": -73.15798,
+          "y": -104.7747
+        },
+        {
+          "glow": "lowPosterGlow",
+          "x": 16.631423,
+          "y": -104.55
+        }
+      ],
+      [
+        {
+          "glow": "lowPosterGlow",
+          "x": -72.7418,
+          "y": -104.16948
+        },
+        {
+          "glow": "lowPosterGlow",
+          "x": -74.1902,
+          "y": -81.25586
+        }
+      ],
+      [
+        {
+          "glow": "lowPosterGlow",
+          "x": -73.352,
+          "y": -71.509
+        },
+        {
+          "glow": "lowPosterGlow",
+          "x": 13.1399,
+          "y": -115.5053
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElecPowerStudent",
+    "arr": [
+      [
+        {
+          "glow": "shiboqiE",
+          "x": -185.0541,
+          "y": 44.1645195
+        },
+        {
+          "glow": "shiboqiE",
+          "x": -141.68906,
+          "y": 44.15929
+        },
+        {
+          "glow": "quanB",
+          "x": 25.522,
+          "y": -60.163
+        },
+        {
+          "glow": "studentglow",
+          "x": -116.6,
+          "y": -75.64
+        },
+        {
+          "glow": "studentglow",
+          "x": -64.55988,
+          "y": -75.64
+        },
+        {
+          "glow": "studentglow",
+          "x": -116.6,
+          "y": -12
+        },
+        {
+          "glow": "studentglow",
+          "x": -64.55988,
+          "y": -12
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElecEnergy4",
+    "arr": [
+      [
+        {
+          "glow": "studentglow",
+          "parent": "bg",
+          "x": -102.15,
+          "y": 89.34994
+        },
+        {
+          "glow": "studentglow",
+          "parent": "bg",
+          "x": -49.661979,
+          "y": 89.34994
+        },
+        {
+          "glow": "studentglow",
+          "parent": "bg",
+          "x": 3.243,
+          "y": 89.34994
+        },
+        {
+          "glow": "studentglow",
+          "parent": "bg",
+          "x": 55.148,
+          "y": 89.34994
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElecOr",
+    "arr": [
+      [
+        {
+          "glow": "menLGlow",
+          "x": -74.995659,
+          "y": -38.691341
+        },
+        {
+          "glow": "menLGlow",
+          "x": -74.995659,
+          "y": 17.8299
+        },
+        {
+          "glow": "menRGlow",
+          "x": 45.202777,
+          "y": -11.97249
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElecAnd",
+    "arr": [
+      [
+        {
+          "glow": "menLGlow",
+          "x": -74.9956,
+          "y": -38.90179514
+        },
+        {
+          "glow": "menLGlow",
+          "x": -74.9956,
+          "y": 18.0352
+        },
+        {
+          "glow": "menRGlow",
+          "x": 45.20815,
+          "y": -11.95158
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElecNo",
+    "arr": [
+      [
+        {
+          "glow": "menLGlow",
+          "x": -75.406423,
+          "y": -12.16203
+        },
+        {
+          "glow": "menRGlow",
+          "x": 45.21892,
+          "y": -11.951583
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElecGround",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": -16.302,
+          "y": -63.343
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElecTwo",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": -91.643,
+          "y": -28.124
+        },
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": 44.99739,
+          "y": -26.34498
+        }
+      ],
+      [
+        {
+          "glow": "postertglow",
+          "x": 43.3665,
+          "y": -26.99799
+        },
+        {
+          "glow": "postertglow",
+          "x": -93.798794,
+          "y": -26.99799
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "LED",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "parent": "drect1",
+          "x": 12.9378,
+          "y": 45.9164
+        },
+        {
+          "glow": "postertglow",
+          "parent": "drect1",
+          "x": 148.616,
+          "y": 48.2129
+        }
+      ],
+      [
+        {
+          "glow": "postertglow",
+          "parent": "drect1",
+          "x": 12.9378,
+          "y": 45.9164
+        },
+        {
+          "glow": "postertglow",
+          "parent": "drect1",
+          "x": 148.616,
+          "y": 48.2129
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "JouleLaw",
+    "arr": [
+      [
+        {
+          "glow": "studentglow",
+          "x": -98.89,
+          "y": 346.09
+        },
+        {
+          "glow": "studentglow",
+          "x": -6.65,
+          "y": 345.3974
+        },
+        {
+          "glow": "studentglow",
+          "x": -98.89,
+          "y": 441.543
+        },
+        {
+          "glow": "studentglow",
+          "x": -6.65,
+          "y": 441.543
+        },
+        {
+          "glow": "studentglow",
+          "x": 316.1158,
+          "y": 176.958
+        },
+        {
+          "glow": "studentglow",
+          "x": 407.194,
+          "y": 176.4
+        },
+        {
+          "glow": "studentglow",
+          "x": 287.0522,
+          "y": 441.31494
+        },
+        {
+          "glow": "studentglow",
+          "x": 378.0868,
+          "y": 439.736
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElectricAppliance",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": -26.43744,
+          "y": 296.32221
+        },
+        {
+          "glow": "postertglow",
+          "x": 83.2648,
+          "y": 296.32221
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "SimulatedElectricField",
+    "arr": [
+      [
+        {
+          "glow": "studentglow",
+          "x": -200.11,
+          "y": -21.12542
+        },
+        {
+          "glow": "studentglow",
+          "x": 158.335,
+          "y": -21.0414
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElectriMag50cElectri",
+    "arr": [
+      [
+        {
+          "glow": "tiedingGlow",
+          "parent": "bg",
+          "x": -127.393,
+          "y": 13.962
+        },
+        {
+          "glow": "tiedingGlow",
+          "parent": "bg",
+          "x": 95.05937,
+          "y": 13.962
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElectriMag100cElectri",
+    "arr": [
+      [
+        {
+          "glow": "tiedingGlow",
+          "parent": "bg",
+          "x": -118.7769,
+          "y": 14.1829461
+        },
+        {
+          "glow": "tiedingGlow",
+          "parent": "bg",
+          "x": 88.9894,
+          "y": 14.1829461
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "SolenoidalWinding",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": -163.16354,
+          "y": 11.95158
+        },
+        {
+          "glow": "postertglow",
+          "x": 114.923,
+          "y": 10.9463
+        }
+      ],
+      [
+        {
+          "glow": "postertglow",
+          "x": -163.16354,
+          "y": 11.95158
+        },
+        {
+          "glow": "postertglow",
+          "x": 114.923,
+          "y": 10.9463
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "SolenoidMagneticInductionLine",
+    "arr": [
+      [
+        {
+          "glow": "studentglow",
+          "parent": "componentBox",
+          "x": -205.5691,
+          "y": -21.11644
+        },
+        {
+          "glow": "studentglow",
+          "parent": "componentBox",
+          "x": 163.9004,
+          "y": -21.583
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElecBell",
+    "arr": [
+      [
+        {
+          "glow": "studentglow",
+          "x": -112.41,
+          "y": -233.3979
+        },
+        {
+          "glow": "studentglow",
+          "x": 69.36193,
+          "y": -233.7177
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "WireRetainingClip",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "parent": "bg.glowBox",
+          "x": -49.795,
+          "y": -186.2318
+        },
+        {
+          "glow": "postertglow",
+          "parent": "bg.glowBox",
+          "x": 1.7867739,
+          "y": -186.2318
+        },
+        {
+          "glow": "posterbglow",
+          "x": -49.0586,
+          "y": 172.8967
+        },
+        {
+          "glow": "posterbglow",
+          "x": 2.94089,
+          "y": 172.8967
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "AstElecComp",
+    "arr": [
+      [
+        {
+          "glow": "studentglow",
+          "parent": "componentBox",
+          "x": -23.10677,
+          "y": -188.0253
+        },
+        {
+          "glow": "studentglow",
+          "parent": "componentBox",
+          "x": -22.096,
+          "y": 142.434688
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElectromagneticRelay",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": -211.8147,
+          "y": 9.925448
+        },
+        {
+          "glow": "postertglow",
+          "x": -221.9546,
+          "y": 63.4206
+        },
+        {
+          "glow": "postertglow",
+          "x": 155.472048,
+          "y": 0.394772
+        },
+        {
+          "glow": "postertglow",
+          "x": 160.93663,
+          "y": 40.72793
+        },
+        {
+          "glow": "postertglow",
+          "x": 169.04427,
+          "y": 81.2454
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "MagnetHSBoardElectri",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": 162.15277,
+          "y": 20.04567
+        },
+        {
+          "glow": "postertglow",
+          "x": 176.74652,
+          "y": 51.669
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "RectCoidElectri",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": -174.314,
+          "y": 81.47154
+        },
+        {
+          "glow": "postertglow",
+          "x": 124.65,
+          "y": 83.2663
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElectriMotorElectri",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": -91.21,
+          "y": 161.848996
+        },
+        {
+          "glow": "postertglow",
+          "x": 43.9866,
+          "y": 160.87513
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElectromagneticMode",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": -167.01736,
+          "y": 88.34994
+        },
+        {
+          "glow": "postertglow",
+          "x": 123.8414,
+          "y": 88.34994
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "TwoPoles",
+    "arr": [
+      [
+        {
+          "glow": "cijiA",
+          "parent": "bang",
+          "x": 183.6402,
+          "y": -128.7782
+        },
+        {
+          "glow": "cijiA",
+          "parent": "bang",
+          "x": -215.589582,
+          "y": 63.96449
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "HandGenerator",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "parent": "glowBox",
+          "x": 1.821527,
+          "y": 144.645
+        },
+        {
+          "glow": "postertglow",
+          "parent": "glowBox",
+          "x": 180.8057,
+          "y": 144.645
+        },
+        {
+          "glow": "shouyaocir",
+          "parent": "ros",
+          "x": -103.04,
+          "y": 63.0728
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "SolenoidElectri",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": -66.493402,
+          "y": -127.2412
+        },
+        {
+          "glow": "postertglow",
+          "x": 18.04,
+          "y": -127.2412
+        }
+      ],
+      [
+        {
+          "glow": "postertglow",
+          "x": -66.493402,
+          "y": -127.2412
+        },
+        {
+          "glow": "postertglow",
+          "x": 18.04,
+          "y": -127.2412
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "SpacedCoil",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "glow": "postertglow",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      [
+        {
+          "glow": "postertglow",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "glow": "postertglow",
+          "x": 0,
+          "y": 0
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "VariableElecTransformator",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": -210.993,
+          "y": -9.3
+        },
+        {
+          "glow": "postertglow",
+          "x": -161.142,
+          "y": -9.3
+        },
+        {
+          "glow": "postertglow",
+          "x": -111.074,
+          "y": -9.3
+        },
+        {
+          "glow": "postertglow",
+          "x": -60.8072,
+          "y": -9.3
+        },
+        {
+          "glow": "postertglow",
+          "x": 27.56597,
+          "y": -9.3
+        },
+        {
+          "glow": "postertglow",
+          "x": 91,
+          "y": -9.3
+        },
+        {
+          "glow": "postertglow",
+          "x": 155.85,
+          "y": -9.3
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "LorentzForce",
+    "arr": [
+      [
+        {
+          "glow": "yanshiyizhong",
+          "x": -153.82361,
+          "y": 168.97967
+        },
+        {
+          "glow": "yanshiyizhong",
+          "x": 45.02,
+          "y": 154.981
+        },
+        {
+          "glow": "yanshiyixiao",
+          "parent": "xn2",
+          "x": -13.2268,
+          "y": -12.05736
+        },
+        {
+          "glow": "yanshiyirect",
+          "x": 114.92847,
+          "y": 162.285586
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "DengBan",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": 192.617,
+          "y": -33.4
+        },
+        {
+          "glow": "postertglow",
+          "x": -233.762,
+          "y": -33.4
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "SimpleCoilSkin",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": -147.548,
+          "y": 27.771
+        },
+        {
+          "glow": "postertglow",
+          "x": 102.76,
+          "y": 27.771
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "Capacitance",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": -93.448,
+          "y": 17
+        },
+        {
+          "glow": "postertglow",
+          "x": 44.186,
+          "y": 17
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "Phototube",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "x": -94.253993,
+          "y": 27.344984
+        },
+        {
+          "glow": "postertglow",
+          "x": 44.392,
+          "y": 27.344984
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "SignalGenerator",
+    "arr": [
+      [
+        {
+          "glow": "fashengqiA",
+          "x": -183.0326,
+          "y": 73.546092
+        },
+        {
+          "glow": "fashengqiA",
+          "x": -147.15902,
+          "y": 73.546092925026
+        },
+        {
+          "glow": "shiboqiF",
+          "x": 147.15902,
+          "y": 55.31610348
+        },
+        {
+          "glow": "shiboqiF",
+          "x": 98.7185763,
+          "y": 55.31610348
+        },
+        {
+          "glow": "fashengqiB",
+          "x": 90.40017,
+          "y": 1.015681
+        },
+        {
+          "glow": "fashengqiB",
+          "x": 134.592,
+          "y": -39.101795
+        },
+        {
+          "glow": "fashengqiB",
+          "x": 91.00555,
+          "y": -38.8913
+        },
+        {
+          "glow": "fashengqiB",
+          "x": 134.9975694,
+          "y": -70.099
+        },
+        {
+          "glow": "fashengqiB",
+          "x": 91.0109,
+          "y": -70.09382
+        },
+        {
+          "glow": "dianzuxiangGlow",
+          "x": 31.01440972,
+          "y": 49.037697
+        },
+        {
+          "glow": "dianzuxiangGlow",
+          "x": -35.86284,
+          "y": 49.037697
+        },
+        {
+          "glow": "dianzuxiangGlow",
+          "x": -103.58315,
+          "y": 49.037697
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "Oscilloscope",
+    "arr": [
+      [
+        {
+          "glow": "shiboqiA",
+          "parent": "bg",
+          "x": -123.5538,
+          "y": 152.86
+        },
+        {
+          "glow": "shiboqiA",
+          "parent": "bg",
+          "x": -109.1159,
+          "y": 152.69339
+        },
+        {
+          "glow": "shiboqiA",
+          "parent": "bg",
+          "x": 79.79776,
+          "y": 154.01394
+        },
+        {
+          "glow": "shiboqiA",
+          "parent": "bg",
+          "x": 93.235722,
+          "y": 155.0139
+        },
+        {
+          "glow": "shiboqiE",
+          "parent": "bg",
+          "x": 71.6028,
+          "y": -188.32
+        },
+        {
+          "glow": "shiboqiE",
+          "parent": "bg",
+          "x": 71.6028,
+          "y": -141.06
+        },
+        {
+          "glow": "shiboqiE",
+          "parent": "bg",
+          "x": 71.6028,
+          "y": -94.95
+        },
+        {
+          "glow": "shiboqiE",
+          "parent": "bg",
+          "x": 71.37,
+          "y": 14.09317
+        },
+        {
+          "glow": "shiboqiE",
+          "parent": "bg",
+          "x": 9.4257,
+          "y": 14.09317
+        },
+        {
+          "glow": "shiboqiE",
+          "parent": "bg",
+          "x": -53.4425,
+          "y": 14.09317
+        },
+        {
+          "glow": "shiboqiE",
+          "parent": "bg",
+          "x": -115.38,
+          "y": 14.09317
+        },
+        {
+          "glow": "shiboqiE",
+          "parent": "bg",
+          "x": -22.55399,
+          "y": 63.2439384
+        },
+        {
+          "glow": "shiboqiE",
+          "parent": "bg",
+          "x": 51.23,
+          "y": 78.39
+        },
+        {
+          "glow": "shiboqiE",
+          "parent": "bg",
+          "x": -95.447,
+          "y": 78.33711
+        },
+        {
+          "glow": "shiboqiF",
+          "parent": "bg",
+          "x": 31.6889,
+          "y": 138
+        },
+        {
+          "glow": "shiboqiF",
+          "parent": "bg",
+          "x": -17.941,
+          "y": 138
+        },
+        {
+          "glow": "shiboqiF",
+          "parent": "bg",
+          "x": -66.88051,
+          "y": 138
+        },
+        {
+          "glow": "shiboqiG",
+          "parent": "bg",
+          "x": 90.39269,
+          "y": -43.739
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElectronDiffraction",
+    "arr": [
+      [
+        {
+          "glow": "fashengqiA",
+          "x": 0.67221,
+          "y": 140.51
+        },
+        {
+          "glow": "studentglow",
+          "x": -40.489,
+          "y": 25.195
+        }
+      ],
+      [
+        {
+          "glow": "fashengqiA",
+          "x": 36.41,
+          "y": 140.51
+        },
+        {
+          "glow": "studentglow",
+          "x": -40.489,
+          "y": 25.195
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "SupportHaveMagnet",
+    "arr": [
+      [
+        {
+          "glow": "xiaomao",
+          "x": 90.17456,
+          "y": -212.786
+        },
+        {
+          "glow": "xiaomao",
+          "x": 39.28349,
+          "y": -140.1207
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "SupportHaveMagnets",
+    "arr": [
+      [
+        {
+          "glow": "xiaomao",
+          "x": 68.5112,
+          "y": -179.359
+        },
+        {
+          "glow": "xiaomao",
+          "x": 85.30115,
+          "y": -202.7345
+        },
+        {
+          "glow": "xiaomao",
+          "x": 98.7998,
+          "y": -220.5181
+        },
+        {
+          "glow": "xiaomao",
+          "x": 111.346685,
+          "y": -236.7620277
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ParallelPlateCondenser",
+    "arr": [
+      [
+        {
+          "glow": "pingxingbanglow",
+          "x": 122.8,
+          "y": -23
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElectriScope",
+    "arr": [
+      [
+        {
+          "glow": "jingdianjiquanglow",
+          "x": -22.1013,
+          "y": -188.03
+        },
+        {
+          "glow": "jingdianjiRglow",
+          "x": 66.905548661,
+          "y": 15.323
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElectrostaticShield",
+    "arr": [
+      [
+        {
+          "glow": "jingdianpingbiglow",
+          "x": -23.1175,
+          "y": -515.85
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "HollowBallElectroscope",
+    "arr": [
+      [
+        {
+          "glow": "yandianqiglow",
+          "x": -23.83567,
+          "y": -192.649
+        }
+      ],
+      [
+        {
+          "glow": "yandianqibglow",
+          "x": -39.7828,
+          "y": -250.092
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "SpacedCoil",
+    "arr": [
+      [
+        {
+          "glow": "daxianquanglow",
+          "x": -77.201,
+          "y": 65.4572
+        },
+        {
+          "glow": "daxianquanglow",
+          "x": 36.44736,
+          "y": 67.0932
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ComTimerNew",
+    "arr": [
+      [
+        {
+          "glow": "miaobiaoaglow",
+          "x": -153.50225,
+          "y": -184.19
+        },
+        {
+          "glow": "miaobiaobglow",
+          "x": -41.462,
+          "y": -241.758
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "Balance",
+    "arr": [
+      [
+        {
+          "glow": "tianpingra",
+          "parent": "gang.rightlun",
+          "x": -13.2014,
+          "y": -29.643
+        },
+        {
+          "glow": "tianpingra",
+          "parent": "gang.leftlun",
+          "x": -33.7277,
+          "y": -29.643
+        },
+        {
+          "glow": "tianpingrb",
+          "parent": "gang.youbiao",
+          "x": -43.3382,
+          "y": -57.60485
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "LeverRule",
+    "arr": [
+      [
+        {
+          "glow": "gangganchia",
+          "parent": "rule.rightlun",
+          "x": -21.985,
+          "y": -17.8
+        },
+        {
+          "glow": "gangganchib",
+          "parent": "rule.leftlun",
+          "x": -22.196,
+          "y": -17.521
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "VerticalDrop",
+    "arr": [
+      [
+        {
+          "glow": "pingpaoa",
+          "parent": "chui",
+          "x": -68.1742,
+          "y": 290.3073
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "PistonPump",
+    "arr": [
+      [
+        {
+          "glow": "choushuiji",
+          "parent": "lever",
+          "x": -257.5313,
+          "y": -200.118
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "SpiralMicrometer",
+    "arr": [
+      [
+        {
+          "glow": "ceweijia",
+          "parent": "quanda",
+          "x": 154.24715,
+          "y": -39.524961
+        },
+        {
+          "glow": "ceweijib",
+          "parent": "quanda",
+          "x": -0.7299,
+          "y": -64.250335
+        },
+        {
+          "glow": "ceweijic",
+          "parent": "suo",
+          "x": -28.1664,
+          "y": -28.418
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "WhiteRayPen",
+    "arr": [
+      [
+        {
+          "glow": "shoudiantong",
+          "x": -19.047569,
+          "y": -16.009
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "Inflate",
+    "arr": [
+      [
+        {
+          "glow": "daqitong",
+          "parent": "gan",
+          "x": -70.6826,
+          "y": -222.66236
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "SoundWaveView",
+    "arr": [
+      [
+        {
+          "glow": "huatonga",
+          "parent": "nbbtn1",
+          "x": -26.8323,
+          "y": -17.191
+        },
+        {
+          "glow": "huatonga",
+          "parent": "nbbtn2",
+          "x": -27.13261,
+          "y": -17.9977
+        },
+        {
+          "glow": "huatongb",
+          "x": 114.856,
+          "y": -197.12
+        },
+        {
+          "glow": "huatongb",
+          "x": 245.807,
+          "y": -197.145381
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "AlarmClock",
+    "arr": [
+      [
+        {
+          "glow": "naoling",
+          "x": -24.9336,
+          "y": -105.764
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "SpringTension",
+    "arr": [
+      [
+        {
+          "glow": "celijia",
+          "parent": "bg",
+          "x": -14.9558,
+          "y": -162.17
+        },
+        {
+          "glow": "celijigoua",
+          "parent": "gou",
+          "x": -24.434,
+          "y": -42.0869
+        }
+      ],
+      [
+        {
+          "glow": "celijia",
+          "parent": "bg",
+          "x": -14.9558,
+          "y": -162.17
+        },
+        {
+          "glow": "celijigoub",
+          "parent": "gou",
+          "x": -24.434,
+          "y": -42.0869
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "FurredCeiling",
+    "arr": [
+      [
+        {
+          "glow": "guagoua",
+          "parent": "gou",
+          "x": -21.216,
+          "y": -26.7211
+        }
+      ],
+      [
+        {
+          "glow": "guagoub",
+          "parent": "gou",
+          "x": -21.216,
+          "y": -26.7211
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "FurredCeilingB",
+    "arr": [
+      [
+        {
+          "glow": "guagoua",
+          "parent": "gou",
+          "x": -21.216,
+          "y": -26.7211
+        }
+      ],
+      [
+        {
+          "glow": "guagoub",
+          "parent": "gou",
+          "x": -21.216,
+          "y": -26.7211
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "TenLublock",
+    "arr": [
+      [
+        {
+          "glow": "goumaa",
+          "parent": "bg",
+          "x": -18.7658,
+          "y": -58.347
+        }
+      ],
+      [
+        {
+          "glow": "goumab",
+          "parent": "bg",
+          "x": -18.7658,
+          "y": -58.347
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "AluminumBlock",
+    "arr": [
+      [
+        {
+          "glow": "goumaa",
+          "parent": "bg",
+          "x": -21.17111,
+          "y": -102.166
+        }
+      ],
+      [
+        {
+          "glow": "goumab",
+          "parent": "bg",
+          "x": -21.17111,
+          "y": -102.166
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "Hockcode",
+    "arr": [
+      [
+        {
+          "glow": "goumaa",
+          "parent": "bg",
+          "x": -18.7658,
+          "y": -58.347
+        },
+        {
+          "glow": "goumac",
+          "parent": "bg",
+          "x": -21.7,
+          "y": 23.55257
+        }
+      ],
+      [
+        {
+          "glow": "goumab",
+          "parent": "bg",
+          "x": -18.7658,
+          "y": -58.347
+        },
+        {
+          "glow": "goumac",
+          "parent": "bg",
+          "x": -21.7,
+          "y": 23.55257
+        }
+      ],
+      [
+        {
+          "glow": "goumaa",
+          "parent": "bg",
+          "x": -18.7658,
+          "y": -58.347
+        },
+        {
+          "glow": "goumad",
+          "parent": "bg",
+          "x": -21.7,
+          "y": 23.55257
+        }
+      ],
+      [
+        {
+          "glow": "goumab",
+          "parent": "bg",
+          "x": -18.7658,
+          "y": -58.347
+        },
+        {
+          "glow": "goumad",
+          "parent": "bg",
+          "x": -21.7,
+          "y": 23.55257
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "GouSpringBottom",
+    "arr": [
+      [
+        {
+          "glow": "tangoua",
+          "parent": "top",
+          "x": -17.11931,
+          "y": -53.3328
+        },
+        {
+          "glow": "tangoub",
+          "parent": "bottom",
+          "x": -12.362,
+          "y": 17.12471
+        }
+      ],
+      [
+        {
+          "glow": "tangoud",
+          "parent": "top",
+          "x": -17.11931,
+          "y": -53.3328
+        },
+        {
+          "glow": "tangoub",
+          "parent": "bottom",
+          "x": -12.362,
+          "y": 17.12471
+        }
+      ],
+      [
+        {
+          "glow": "tangoua",
+          "parent": "top",
+          "x": -17.11931,
+          "y": -53.3328
+        },
+        {
+          "glow": "tangouc",
+          "parent": "bottom",
+          "x": -12.362,
+          "y": 17.12471
+        }
+      ],
+      [
+        {
+          "glow": "tangoud",
+          "parent": "top",
+          "x": -17.11931,
+          "y": -53.3328
+        },
+        {
+          "glow": "tangouc",
+          "parent": "bottom",
+          "x": -12.362,
+          "y": 17.12471
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "HookWood",
+    "arr": [
+      [
+        {
+          "glow": "mugoua",
+          "x": 94.407,
+          "y": -24.9861
+        }
+      ],
+      [
+        {
+          "glow": "mugoub",
+          "x": 94.407,
+          "y": -24.9861
+        }
+      ],
+      [
+        {
+          "glow": "mugouc",
+          "x": -25.5,
+          "y": -121.5114
+        }
+      ],
+      [
+        {
+          "glow": "mugoud",
+          "x": -25.5,
+          "y": -121.5114
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "PullComp",
+    "arr": [
+      [
+        {
+          "glow": "huagoua",
+          "parent": "wugou",
+          "x": -15,
+          "y": -8
+        }
+      ],
+      [
+        {
+          "glow": "huagouc",
+          "parent": "wugou",
+          "x": -15,
+          "y": -8
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "HTickerTimer",
+    "arr": [
+      [
+        {
+          "glow": "jishiqia",
+          "parent": "btn",
+          "x": -6.11,
+          "y": -5.964
+        },
+        {
+          "glow": "jishiqib",
+          "x": -54.3159,
+          "y": -24.0597
+        },
+        {
+          "glow": "jishiqic",
+          "x": 29.5822,
+          "y": -25.2474
+        }
+      ],
+      [
+        {
+          "glow": "jishiqia",
+          "parent": "btn",
+          "x": 13.25158,
+          "y": -6.0091
+        },
+        {
+          "glow": "jishiqib",
+          "x": -54.3159,
+          "y": -24.0597
+        },
+        {
+          "glow": "jishiqic",
+          "x": 29.5822,
+          "y": -25.2474
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "VTickerTimer",
+    "arr": [
+      [
+        {
+          "glow": "jishiqia",
+          "parent": "btn",
+          "x": -5.9208,
+          "y": -5.9032
+        },
+        {
+          "glow": "jishiqid",
+          "x": 206.92036,
+          "y": -0.1327
+        },
+        {
+          "glow": "jishiqid",
+          "x": 206.85781,
+          "y": -62.933
+        }
+      ],
+      [
+        {
+          "glow": "jishiqia",
+          "parent": "btn",
+          "x": 13.026,
+          "y": -5.895
+        },
+        {
+          "glow": "jishiqid",
+          "x": 206.92036,
+          "y": -0.1327
+        },
+        {
+          "glow": "jishiqid",
+          "x": 206.85781,
+          "y": -62.933
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "VernierCaliper",
+    "arr": [
+      [
+        {
+          "glow": "youbiaoa",
+          "parent": "body_top",
+          "x": -95.9747,
+          "y": -85.978874
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "Torricelli",
+    "arr": [
+      [],
+      [
+        {
+          "glow": "tuolia",
+          "parent": "guan",
+          "x": -19.38,
+          "y": 1404.9988
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "PlumbLine",
+    "arr": [
+      [
+        {
+          "glow": "shuipingyi",
+          "x": -13.0976,
+          "y": 49.4162
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "PascalToolNew",
+    "arr": [
+      [
+        {
+          "glow": "yetiyaqiangji",
+          "parent": "gan",
+          "x": 52,
+          "y": -5
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ForceSynthesisAndDecomposition",
+    "arr": [
+      [
+        {
+          "glow": "lidehechengfenjiea",
+          "parent": "iconRingT",
+          "x": -43.31,
+          "y": -45.5319
+        },
+        {
+          "glow": "lidehechengfenjieb",
+          "parent": "hookLMec",
+          "x": -7.229,
+          "y": -19.88
+        },
+        {
+          "glow": "lidehechengfenjieb",
+          "parent": "hookRMec",
+          "x": -7.229,
+          "y": -19.88
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ParallelogramRule",
+    "arr": [
+      [
+        {
+          "glow": "pingxingsibian",
+          "parent": "huan",
+          "x": -19.596,
+          "y": -20.6768
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "Crownblockboard",
+    "arr": [
+      [
+        {
+          "glow": "erlia",
+          "parent": "lefthock",
+          "x": -16.375,
+          "y": -26.5909
+        },
+        {
+          "glow": "guagoub",
+          "parent": "lefthock",
+          "x": -16.375,
+          "y": -26.5909
+        },
+        {
+          "glow": "erlia",
+          "parent": "righthock",
+          "x": -16.375,
+          "y": -26.5909
+        },
+        {
+          "glow": "guagoub",
+          "parent": "righthock",
+          "x": -16.375,
+          "y": -26.5909
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "HorizontalMotion",
+    "arr": [
+      [
+        {
+          "glow": "pingpaoyanshiyi",
+          "parent": "ct1",
+          "x": -26.935,
+          "y": -21.37
+        },
+        {
+          "glow": "pingpaoyanshiyi",
+          "parent": "ct2",
+          "x": -26.935,
+          "y": -21.37
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "PingpaoExp",
+    "arr": [
+      [
+        {
+          "glow": "pingpaoyanshiyi",
+          "parent": "track.xfz",
+          "scale": 0.7,
+          "x": -17.47,
+          "y": -18.26
+        },
+        {
+          "glow": "pingpaorect",
+          "parent": "hg",
+          "x": -301.39,
+          "y": -48.2
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "DropperBottle",
+    "arr": [
+      [
+        {
+          "glow": "jiaotoudiguana",
+          "x": -40.0482,
+          "y": -330.5731
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "CurvilinearMotion",
+    "arr": [
+      [
+        {
+          "glow": "quxianyundonga",
+          "parent": "g1",
+          "x": 132.7989,
+          "y": -84.69
+        },
+        {
+          "glow": "quxianyundongb",
+          "x": -305.241,
+          "y": -355.448
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "SpringSystem",
+    "arr": [
+      [
+        {
+          "glow": "shoupozhendonga",
+          "x": -194.06,
+          "y": 275.32
+        },
+        {
+          "glow": "shoupoc",
+          "x": -194.06,
+          "y": 275.32
+        },
+        {
+          "glow": "shoupozhendongb",
+          "x": 110.3582,
+          "y": 278.72
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "Wave3Btn",
+    "arr": [
+      [
+        {
+          "glow": "bodexingcheng",
+          "parent": "wheelRods1.rods",
+          "x": -12.0211,
+          "y": -12.133
+        },
+        {
+          "glow": "bodexingcheng",
+          "parent": "wheelRods2.rods",
+          "x": -12.0211,
+          "y": -12.133
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "TransverseWaveFormation",
+    "arr": [
+      [
+        {
+          "glow": "bodexingcheng",
+          "parent": "rods",
+          "x": -12.0211,
+          "y": -12.133
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "AirTrack",
+    "arr": [
+      [
+        {
+          "glow": "qidiana",
+          "parent": "fireBtn",
+          "x": 0.97087,
+          "y": 0.941089
+        },
+        {
+          "glow": "qidiana",
+          "parent": "stopBtn",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "glow": "gaoyaganyingb",
+          "parent": "clearBtn",
+          "x": -5.5,
+          "y": -8.5
+        },
+        {
+          "glow": "gaoyaganyingb",
+          "parent": "abBtn",
+          "x": -6.7,
+          "y": -8.5
+        },
+        {
+          "glow": "qidianc",
+          "parent": "s1",
+          "x": -10.02136,
+          "y": -36.986
+        },
+        {
+          "glow": "qidianc",
+          "parent": "s2",
+          "x": -10.02136,
+          "y": -36.986
+        },
+        {
+          "glow": "shoupoc",
+          "parent": "qbeng",
+          "x": -45.5106,
+          "y": -52.27
+        }
+      ],
+      [
+        {
+          "glow": "qidiana",
+          "parent": "fireBtn",
+          "x": 0.97087,
+          "y": 0.941089
+        },
+        {
+          "glow": "qidiana",
+          "parent": "stopBtn",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "glow": "gaoyaganyingb",
+          "parent": "clearBtn",
+          "x": -5.5,
+          "y": -8.5
+        },
+        {
+          "glow": "gaoyaganyingb",
+          "parent": "abBtn",
+          "x": -6.7,
+          "y": -8.5
+        },
+        {
+          "glow": "qidianc",
+          "parent": "s1",
+          "x": -10.02136,
+          "y": -36.986
+        },
+        {
+          "glow": "qidianc",
+          "parent": "s2",
+          "x": -10.02136,
+          "y": -36.986
+        },
+        {
+          "glow": "shoupozhendonga",
+          "parent": "qbeng",
+          "x": -45.5106,
+          "y": -52.27
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "PointerMultimeter",
+    "arr": [
+      [
+        {
+          "glow": "yandianqiglow",
+          "x": 197.012,
+          "y": 182.39
+        },
+        {
+          "glow": "shiboqiE",
+          "x": 99.52,
+          "y": 129.783
+        },
+        {
+          "glow": "zhizhenc",
+          "x": 52.66,
+          "y": 218.35837
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElecGround",
+    "arr": [
+      [
+        {
+          "glow": "dixiancir",
+          "x": -15.3128,
+          "y": -63.988
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "SMStent",
+    "arr": [
+      [
+        {
+          "glow": "xiaoqiutiejiatai",
+          "x": -46.483,
+          "y": -192.282
+        },
+        {
+          "glow": "xiaoqiutiejiatai",
+          "x": 23.815,
+          "y": -192.282
+        },
+        {
+          "glow": "xiaoqiutiejiatai",
+          "x": 95.144,
+          "y": -192.282
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "V9Battery",
+    "arr": [
+      [
+        {
+          "glow": "v9postera",
+          "x": 6.45653,
+          "y": -83.472
+        },
+        {
+          "glow": "v9posterb",
+          "x": -51.56,
+          "y": -83.35
+        }
+      ],
+      [
+        {
+          "glow": "v9posterb",
+          "x": 2.181,
+          "y": -83.472
+        },
+        {
+          "glow": "v9postera",
+          "x": -49.314,
+          "y": -83.342
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "RedNeedle",
+    "arr": [
+      [
+        {
+          "glow": "tanzhen",
+          "parent": "bg",
+          "x": -13.534,
+          "y": 111.0108
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "BlackNeedle",
+    "arr": [
+      [
+        {
+          "glow": "tanzhen",
+          "parent": "bg",
+          "x": -13.534,
+          "y": 111.0108
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "RotatingSupport",
+    "arr": [
+      [
+        {
+          "glow": "xuanzhuanzhijia",
+          "x": 113.299,
+          "y": -8.399
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "DoubleSlitExp",
+    "arr": [
+      [
+        {
+          "glow": "shuangfengganshea",
+          "parent": "luos",
+          "x": -52.9528,
+          "y": -47.577
+        },
+        {
+          "glow": "shuangfenggansheb",
+          "x": -223.93,
+          "y": -233.79234
+        },
+        {
+          "glow": "shuangfenggansheb",
+          "x": -424.614,
+          "y": -233.79234
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "LaserDemonstrator",
+    "arr": [
+      [
+        {
+          "glow": "jiguangyanshiyi",
+          "parent": "bg.pan",
+          "x": -232.078,
+          "y": -226.1369
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "Polaroid",
+    "arr": [
+      [
+        {
+          "glow": "pianzhenpian",
+          "x": -11.59,
+          "y": -171.8
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "OpticalBench",
+    "arr": [
+      [
+        {
+          "glow": "guangjuzuoa",
+          "parent": "la",
+          "x": -24.039,
+          "y": -136
+        },
+        {
+          "glow": "guangjuzuob",
+          "parent": "glass.jing",
+          "x": -15.6861,
+          "y": -192.35597
+        },
+        {
+          "glow": "guangjuzuoc",
+          "parent": "sceen.ping",
+          "x": -21.96,
+          "y": -223.514
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "Periscope",
+    "arr": [
+      [
+        {
+          "glow": "qianwanga",
+          "parent": "bottomSp.topskin",
+          "x": 45.9255,
+          "y": -3.9058
+        },
+        {
+          "glow": "qianwangc",
+          "parent": "bottomSp.topskin",
+          "x": -1.6744,
+          "y": -5.1049
+        },
+        {
+          "glow": "qianwangd",
+          "parent": "bottomSp.botskin",
+          "x": -2.79,
+          "y": -1.508
+        },
+        {
+          "glow": "qianwangb",
+          "parent": "bottomSp.botskin",
+          "x": -51.0839,
+          "y": -1.31024
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ColorPalette",
+    "arr": [
+      [
+        {
+          "glow": "sanjise",
+          "parent": "dropperRed",
+          "x": 0.933,
+          "y": -55.6895
+        },
+        {
+          "glow": "sanjise",
+          "parent": "dropperYellow",
+          "x": 0.933,
+          "y": -55.6895
+        },
+        {
+          "glow": "sanjise",
+          "parent": "dropperBlue",
+          "x": 0.933,
+          "y": -55.6895
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "WaterOpticalFiber",
+    "arr": [
+      [
+        {
+          "glow": "shuiliudaoguang",
+          "parent": "plug",
+          "x": -3.8843,
+          "y": -12.33
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "VacuumglassGap",
+    "arr": [
+      [
+        {
+          "glow": "zhenkongbolizhaob",
+          "x": -189.0437,
+          "y": -225.361
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "RefractionChopsticks",
+    "arr": [
+      [
+        {
+          "glow": "kuaizi",
+          "parent": "kuai",
+          "x": -15.26751,
+          "y": -432.394
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "TuningFork",
+    "arr": [
+      [
+        {
+          "glow": "yincha",
+          "parent": "componentBox",
+          "x": -110.184,
+          "y": -9.517
+        },
+        {
+          "glow": "yincha",
+          "parent": "componentBox",
+          "x": -40.0806,
+          "y": -9.517
+        },
+        {
+          "glow": "yincha",
+          "parent": "componentBox",
+          "x": 30.087,
+          "y": -9.517
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "HighVoltageInductionCoil",
+    "arr": [
+      [
+        {
+          "glow": "gaoyaganyinga",
+          "x": -134.019,
+          "y": -145.98
+        },
+        {
+          "glow": "gaoyaganyinga",
+          "x": 99.969,
+          "y": -145.98
+        },
+        {
+          "glow": "gaoyaganyingb",
+          "x": -146.8154,
+          "y": 33.899
+        },
+        {
+          "glow": "gaoyaganyingb",
+          "x": 65.0,
+          "y": 33.899
+        },
+        {
+          "glow": "gaoyaganyingc",
+          "parent": "needleL",
+          "x": -8.27552,
+          "y": -11.2
+        },
+        {
+          "glow": "gaoyaganyingc",
+          "parent": "needleR",
+          "x": -8.844,
+          "y": -11.256
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "DCHighVoltagePower",
+    "arr": [
+      [
+        {
+          "glow": "fashengqiA",
+          "parent": "switchBtn",
+          "x": -39.9476,
+          "y": -22.605
+        },
+        {
+          "glow": "fashengqiA",
+          "parent": "switchBtn",
+          "x": -4.06,
+          "y": -22.605
+        },
+        {
+          "glow": "studentglow",
+          "x": 45.0602,
+          "y": 37.08
+        },
+        {
+          "glow": "studentglow",
+          "x": -49.36,
+          "y": 37.08
+        },
+        {
+          "glow": "gaoyaganyingb",
+          "x": -186.4,
+          "y": -47.185
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "MillikanOilDrop",
+    "arr": [
+      [
+        {
+          "glow": "fashengqiA",
+          "parent": "switch0",
+          "x": -39.7489,
+          "y": -22.6321
+        },
+        {
+          "glow": "fashengqiA",
+          "parent": "switch0",
+          "x": -4.06,
+          "y": -22.6321
+        },
+        {
+          "glow": "gaoyaganyingb",
+          "x": 578.3127,
+          "y": 123.181
+        },
+        {
+          "glow": "jingdianpingbiglow",
+          "x": 484.99,
+          "y": 57.99
+        },
+        {
+          "glow": "miligena",
+          "x": 526.27,
+          "y": 145.0925
+        },
+        {
+          "glow": "miligenb",
+          "parent": "scroll0",
+          "x": -18.63,
+          "y": -18.627
+        },
+        {
+          "glow": "miligenb",
+          "parent": "scroll1",
+          "x": -18.63,
+          "y": -18.627
+        },
+        {
+          "glow": "miligenc",
+          "parent": "sprayer",
+          "x": -73.8945,
+          "y": -44.913
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "AlphaParticleScattering",
+    "arr": [
+      [
+        {
+          "glow": "fashengqiA",
+          "parent": "switchBtn",
+          "x": -39.75511,
+          "y": -22.352
+        },
+        {
+          "glow": "fashengqiA",
+          "parent": "switchBtn",
+          "x": -3.8906,
+          "y": -22.352
+        },
+        {
+          "glow": "jingdianpingbiglow",
+          "x": -376.44,
+          "y": 114.96
+        },
+        {
+          "glow": "jingdianpingbiglow",
+          "x": -330.567,
+          "y": 114.96
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ElectronicInterference",
+    "arr": [
+      [
+        {
+          "glow": "fashengqiA",
+          "parent": "switch0",
+          "x": -39.925,
+          "y": -22.398
+        },
+        {
+          "glow": "fashengqiA",
+          "parent": "switch0",
+          "x": -3.85286,
+          "y": -22.398
+        },
+        {
+          "glow": "gaoyaganyingb",
+          "parent": "rot0",
+          "x": -39.733,
+          "y": -38.84
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "XRay",
+    "arr": [
+      [
+        {
+          "glow": "shexianrect",
+          "x": 47.683,
+          "y": 83.727
+        },
+        {
+          "glow": "shexianrect",
+          "x": 47.546,
+          "y": -300.8889
+        },
+        {
+          "glow": "yaoshia",
+          "parent": "book",
+          "x": -33.4988,
+          "y": -51.543
+        },
+        {
+          "glow": "yaoshib",
+          "parent": "key",
+          "x": -29.5989,
+          "y": -51.83
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "WilsonCloudChamber",
+    "arr": [
+      [
+        {
+          "glow": "shiboqiG",
+          "x": 150.488,
+          "y": -171.1768
+        },
+        {
+          "glow": "weierxuna",
+          "parent": "gan",
+          "x": -54.27,
+          "y": -61.05
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "NuclearFission",
+    "arr": [
+      [
+        {
+          "glow": "gaoyaganyingb",
+          "x": -80.0877,
+          "y": -36.056
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "CathodeRayTube",
+    "arr": [
+      [
+        {
+          "glow": "yinjishexiana",
+          "x": 200.74,
+          "y": -133.219
+        },
+        {
+          "glow": "yinjishexianb",
+          "x": -78.257,
+          "y": -191.0676
+        },
+        {
+          "glow": "yinjishexianc",
+          "x": -77.827,
+          "y": -56.42
+        },
+        {
+          "glow": "yinjishexiand",
+          "x": -240.8,
+          "y": -134.04273
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "ReedSwitch",
+    "arr": [
+      [
+        {
+          "glow": "studentglow",
+          "parent": "bg",
+          "x": 78.73,
+          "y": 29.7
+        },
+        {
+          "glow": "studentglow",
+          "parent": "bg",
+          "x": 382,
+          "y": 36.76
+        }
+      ],
+      [
+        {
+          "glow": "studentglow",
+          "parent": "bg",
+          "x": 78.73,
+          "y": 29.7
+        },
+        {
+          "glow": "studentglow",
+          "parent": "bg",
+          "x": 382,
+          "y": 10.1
+        },
+        {
+          "glow": "studentglow",
+          "parent": "bg",
+          "x": 382,
+          "y": 51.6
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "PhotoelectricResistor",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": -92.227,
+          "y": -31.3554
+        },
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": 46,
+          "y": -31.3554
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "PencilLead",
+    "arr": [
+      [
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": -220.55,
+          "y": -21.68
+        },
+        {
+          "glow": "postertglow",
+          "parent": "bg",
+          "x": 172.75,
+          "y": -21.68
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "MetallicWire",
+    "arr": [
+      [
+        {
+          "glow": "studentglow",
+          "x": -110.7,
+          "y": -30.98
+        },
+        {
+          "glow": "studentglow",
+          "x": 70.6,
+          "y": -31
+        }
+      ]
+    ]
+  },
+  {
+    "classname": "OilGauge",
+    "arr": [
+      [
+        {
+          "glow": "studentglow",
+          "x": -100.886,
+          "y": 57.05
+        },
+        {
+          "glow": "studentglow",
+          "x": -29.5578,
+          "y": 57.05
+        }
+      ]
+    ]
+  }
+]

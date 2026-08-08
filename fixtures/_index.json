@@ -1,0 +1,44 @@
+{
+ "ae99f71c39baa07adb72fd8e759a3d9a8896c081": {
+  "url": "http://127.0.0.1:8010/__nbapi/consoleUrl/v1/user-config/index?subject_id=1&lang=zh-CN&subjectId=1",
+  "method": "GET",
+  "loose": "82ec7ad7c583645521d2a5845b14322b7edd5ec4",
+  "status": 200
+ },
+ "c77470cce66de4ef61e45b566a7877fe199a8316": {
+  "url": "http://127.0.0.1:8010/__nbapi/consoleUrl/v1/msg/get-no-read-cnt?subject=wuli&lang=zh-CN&subjectId=1",
+  "method": "GET",
+  "loose": "d0c34da266b825fa79b6d03cc1c9137be32e542c",
+  "status": 200
+ },
+ "f9dbda8a44764f8362abe601443a7da630f793e8": {
+  "url": "http://127.0.0.1:8010/__nbapi/consoleUrl/v1/msg/list?subject=wuli&tab=class_msg&page=1&per-page=20&lang=zh-CN&subjectId=1",
+  "method": "GET",
+  "loose": "de8286b12da84222a1c02f6d4543df1aeab63d00",
+  "status": 200
+ },
+ "34186f1a4e61db0f405577f83473d654de8094e0": {
+  "url": "http://127.0.0.1:8010/__nbapi/consoleUrl/v1/msg/list?subject=wuli&tab=system_msg&page=1&per-page=20&lang=zh-CN&subjectId=1",
+  "method": "GET",
+  "loose": "de8286b12da84222a1c02f6d4543df1aeab63d00",
+  "status": 200
+ },
+ "c8b3f2ad278a85c6ae1aedfbc93bc5f0ec014915": {
+  "url": "http://127.0.0.1:8010/__nbapi/consoleUrl/v1/general/banners?subject_id=0&type=400&grade_phase_id=0&lang=zh-CN&subjectId=1",
+  "method": "GET",
+  "loose": "08991324a0e78d855899314d5bfab86db966ba84",
+  "status": 200
+ },
+ "b185f0eab23b521ee62204c0cdb6c8ec32dfdbbc": {
+  "url": "http://127.0.0.1:8010/__nbapi/consolePcUrl/v1/resource/index?subjectId=1&gradePhase=2&dataVersion=wuli_v6.20.12&actionType=900&per-page=100&lang=zh-CN",
+  "method": "GET",
+  "loose": "7ec83b026b51395227df011bdee10a3780c7f2e8",
+  "status": 200
+ },
+ "057bb7aa3b38d995a43e46fc86244b73e029651a": {
+  "url": "http://127.0.0.1:8010/__nbapi/consolePcUrl/v1/chapter/tree?lang=zh-CN&subjectId=1",
+  "method": "GET",
+  "loose": "f6295477083783e4214dc2bf36d930675c02780f",
+  "status": 200
+ }
+}

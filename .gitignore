@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Server runtime logs
+missing.log
+missing_api.log
+
+# Mirror scratch outputs (keep the mirror_*.py scripts)
+_download_plan.txt
+_mirror_fail.txt
+_physics_libs_chunks.txt

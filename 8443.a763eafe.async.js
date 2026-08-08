@@ -1,0 +1,1 @@
+(self.webpackChunkvirtuallab=self.webpackChunkvirtuallab||[]).push([[8443],{68443:function(o,t,s){"use strict";s.r(t),s.d(t,{nb_set_pop_menu:function(){return l}});var n=s(23421);const u=":host{display:block}";let l=class{constructor(e){(0,n.r)(this,e)}render(){return(0,n.h)(n.H,null,(0,n.h)("slot",null))}};l.style=u}}]);

@@ -1,0 +1,1 @@
+{"url": "http://127.0.0.1:8010/__nbapi/consolePcUrl/v1/resource/index?subjectId=1&gradePhase=2&dataVersion=wuli_v6.20.12&actionType=900&per-page=100&lang=zh-CN", "method": "GET", "status": 200, "content_type": "application/json", "b64": false, "body": "{\"code\":0,\"data\":{},\"message\":\"ok\",\"status\":0,\"success\":true}\n"}

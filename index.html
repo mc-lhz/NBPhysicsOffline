@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+  <head>
+    <base href="/" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"
+      viewport-fit="cover"
+    />
+
+    <meta name="packver" content="wuli_v6.20.12" />
+    <meta name="IS_SDK" content="false" />
+
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"
+    />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no, email=no" />
+
+    <script>
+      window.global = window.global || window;
+      window.__appStartTime = new Date().getTime();
+    </script>
+
+    <!-- 本地依赖（已镜像到 js/ assets/） -->
+    <script src="js/webcomponents-bundle.js"></script>
+    <script src="js/snap.svg-min.js"></script>
+    <script src="assets/nb-config.js?v=wuli_v6.20.12"></script>
+
+    <!-- 离线注入层：必须在 umi.js 之前 -->
+    <script src="nb-offline-shim.js"></script>
+    <!-- VIP 解锁：本地实现，替代 vip/v4.2.js。必须排在 shim 之后、umi.js 之前 -->
+    <script src="nb-vip-local.js"></script>
+
+    <script src="js/lodash-4.17.20.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/sensorsdata.min-1.22.7.js"></script>
+    <!-- removed: external sensors -->
+    <script src="js/keyboard.min.js"></script>
+    <script src="js/gt.js"></script>
+    <script src="assets/libs/tinymce/tinymce.min.js"></script>
+    <script src="assets/nb-bootstrap-common-css.js"></script>
+    <script src="js/sw.js"></script>
+
+    <script src="assets/nb-utils.min.js?v=wuli_v6.20.12"></script>
+    <script src="assets/postmate.min.js?v=wuli_v6.20.12"></script>
+
+    <!-- 以下 CDN 脚本在离线环境不可用，仿化学离线版注释掉（shim 已接管登录/埋点） -->
+    <!-- <script src="https://nobook-oss-publish-cdn.nobook.com/open-interface/official-sensors.git/cdb9c63fc64924d455734d88b36d5407/other-login.min.js?v=0.0.6"></script> -->
+    <!-- <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script> -->
+    <!-- <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script> -->
+    <!-- <link href="https://cdn.quilljs.com/1.3.6/quill.bubble.css" rel="stylesheet"> -->
+    <!-- <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet"> -->
+
+    <link rel="manifest" href="manifest.json" />
+    <link rel="shortcut icon" type="image/x-icon" href="phy.ico" />
+    <link rel="stylesheet" href="/umi.96f4e3ed.css" />
+    <script>
+      window.routerBase = "/";
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="/umi.575bfdda.js"></script>
+  </body>
+</html>

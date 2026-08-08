@@ -1,0 +1,16 @@
+{
+  "type":0,
+  "color":{
+    "default":0,
+    "colors":"#343941"
+  },
+  "texture":{
+    "default":0,
+    "prePath":"images\/background\/",
+    "nameArr":[
+    ]
+  },
+  "backImg":{
+    "path":""
+  }
+}

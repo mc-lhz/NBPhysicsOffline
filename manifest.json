@@ -1,0 +1,42 @@
+{
+  "short_name": "NB物理",
+  "name": "NB物理实验-网页版",
+  "description": "NOBOOK物理实验",
+  "icons": [
+    {
+      "src": "/imgs/appIcons/phy-48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/imgs/appIcons/phy-72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/imgs/appIcons/phy-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/imgs/appIcons/phy-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/imgs/appIcons/phy-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/imgs/appIcons/phy-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/?from=pwa",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#ffffff"
+}

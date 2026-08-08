@@ -1,0 +1,1 @@
+(self.webpackChunkvirtuallab=self.webpackChunkvirtuallab||[]).push([[6080],{66080:function(c,t,n){"use strict";n.r(t),n.d(t,{nb_pc_b_set_menu:function(){return u}});var s=n(23421);const l=":host{display:block}";let u=class{constructor(e){(0,s.r)(this,e)}render(){return(0,s.h)(s.H,null)}};u.style=l}}]);

@@ -1,0 +1,378 @@
+{
+  "DengBan": [
+    {
+      "name": "ElecWire"
+    },
+    {
+      "name": "ElecWire"
+    },
+    {
+      "name": "ElecWire"
+    },
+    {
+      "name": "ElecWire"
+    },
+    {
+      "name": "ElecAmpereMeter",
+      "positionY": -400
+    },
+    {
+      "name": "BatteryHolder",
+      "positionY": 200
+    },
+    {
+      "name": "RedNeedle",
+      "positionX": 230,
+      "positionY": -230
+    },
+    {
+      "name": "BlackNeedle",
+      "positionX": -230,
+      "positionY": -230
+    }
+  ],
+  "PointerMultimeter": [
+    {
+      "name": "ElecWire"
+    },
+    {
+      "name": "ElecWire"
+    },
+    {
+      "name": "RedNeedle",
+      "positionX": 260,
+      "positionY": 300
+    },
+    {
+      "name": "BlackNeedle",
+      "positionX": -260,
+      "positionY": 300
+    }
+  ],
+  "NewtonSecondLaw,InstantaneousVelocity": [
+    {
+      "name": "NbDesk"
+    },
+    {
+      "name": "WoodPad",
+      "positionX": -266.55,
+      "positionY": -186.8
+    },
+    {
+      "name": "PulleyLongBoard",
+      "positionY": -216.985
+    },
+    {
+      "name": "HTickerTimer"
+    },
+    {
+      "name": "NbCar"
+    },
+    {
+      "name": "Hockcode"
+    }
+  ],
+  "WorkAndSpeed": [
+    {
+      "name": "NbDesk"
+    },
+    {
+      "name": "WoodPad",
+      "positionX": -266.55,
+      "positionY": -186.8
+    },
+    {
+      "name": "LongBoardTM",
+      "positionY": -216.985
+    },
+    {
+      "name": "HTickerTimer"
+    }
+  ],
+  "VerifyMechanicalEnergy,FreeFallingMovement": [
+    {
+      "name": "VTickerTimer"
+    },
+    {
+      "name": "Hockcode"
+    }
+  ],
+  "SpringElasAndvarRelationship": [
+    {
+      "name": "FurredCeilingB"
+    },
+    {
+      "name": "SpringTension",
+      "positionX": 500
+    }
+  ],
+  "DynamicFrictionAndStaticFriction,FactorsAreRelatedFriction": [
+    {
+      "name": "NbDesk"
+    },
+    {
+      "name": "LongBoard",
+      "positionY": -178
+    },
+    {
+      "name": "HookWood",
+      "positionX": -380,
+      "positionY": -250
+    },
+    {
+      "name": "SpringTension",
+      "positionX": 500,
+      "positionY": -250
+    },
+    {
+      "name": "WeightBox",
+      "positionX": -380,
+      "positionY": -600
+    }
+  ],
+  "Sink": [
+    {
+      "name": "SinkBack"
+    }
+  ],
+  "Vacuumglass": [
+    {
+      "name": "VacuumglassGap",
+      "positionY": -222
+    }
+  ],
+  "AstElecComp": [
+    {
+      "name": "AstElecWire"
+    }
+  ],
+  "GlassRobSilkZu": [
+    {
+      "name": "GlassRob",
+      "positionY": -50
+    },
+    {
+      "name": "SilkHandKerchief",
+      "positionY": 50
+    }
+  ],
+  "RubberRodFurZu": [
+    {
+      "name": "RubberRod",
+      "positionY": -50
+    },
+    {
+      "name": "Fur",
+      "positionY": 50
+    }
+  ],
+  "SMStent": [
+    {
+      "name": "SMBall",
+      "positionX": 37,
+      "positionY": -180
+    }
+  ],
+  "WastPaperZu": [
+    {
+      "name": "WastPaper"
+    },
+    {
+      "name": "WastPaper",
+      "positionX": -50
+    },
+    {
+      "name": "WastPaper",
+      "positionX": 50
+    },
+    {
+      "name": "WastPaper",
+      "positionY": -50
+    },
+    {
+      "name": "WastPaper",
+      "positionY": 50
+    }
+  ],
+  "Bunsen": [
+    {
+      "name": "BunsenGap",
+      "positionY": -60
+    }
+  ],
+  "Dropper": [
+    {
+      "name": "DropperXi",
+      "positionY": -80
+    }
+  ],
+  "ElecFamilyTv": [
+    {
+      "name": "ChaTouTwo"
+    }
+  ],
+  "ElecFamilyFan": [
+    {
+      "name": "ChaTouTwo"
+    }
+  ],
+  "ElecFamilyWave": [
+    {
+      "name": "ChaTouThree"
+    }
+  ],
+  "ElecFamilyCooker": [
+    {
+      "name": "ChaTouThree"
+    }
+  ],
+  "ElecFamilyInserted": [
+    {
+      "name": "ChaTouThree"
+    }
+  ],
+  "ElecFamilyWash": [
+    {
+      "name": "ChaTouThree"
+    }
+  ],
+  "ElecFamilyFridge": [
+    {
+      "name": "ChaTouThree"
+    }
+  ],
+  "ElecFamilyAir": [
+    {
+      "name": "ChaTouThree"
+    }
+  ],
+  "ElecFamilyKettle": [
+    {
+      "name": "ChaTouThree"
+    }
+  ],
+  "ElecFamilyHeater": [
+    {
+      "name": "ChaTouThree"
+    }
+  ],
+  "ElecFamilyStove": [
+    {
+      "name": "ChaTouThree"
+    }
+  ],
+  "ConductorWithInsulatingPillarAndMetalFoil": [
+    {
+      "name": "ConductorLeft"
+    },
+    {
+      "name": "ConductorRight"
+    }
+  ],
+  "LiquidMixing": [
+    {
+      "name": "LongTestTube"
+    },
+    {
+      "name": "ReagentBottleThermal",
+      "positionX": 300,
+      "positionY": 350
+    },
+    {
+      "name": "ReagentBottleThermal",
+      "positionX": 700,
+      "positionY": 350
+    }
+  ],
+  "CrossTestLevel": [
+    {
+      "name": "PlumbLine"
+    }
+  ],
+  "PencilLead": [
+    {
+      "name": "ElecWire"
+    },
+    {
+      "name": "ElecWire"
+    }
+  ],
+  "ElecLampAndHolder": [
+    {
+      "name": "ElecLampPao"
+    }
+  ],
+  "MaximumStaticFriction": [
+    {
+      "name": "LongBoard"
+    },
+    {
+      "name": "HookWood"
+    },
+    {
+      "name": "SpringTension"
+    }
+  ],
+  "AccelerationAndForce": [
+    {
+      "name": "PulleyLongBoard"
+    },
+    {
+      "name": "PulleyLongBoard",
+      "positionX": -200,
+      "positionY": 400
+    },
+    {
+      "name": "NbCar",
+      "positionX": -75.5
+    },
+    {
+      "name": "NbCar",
+      "positionY": 365.75
+    },
+    {
+      "name": "Hockcode",
+      "positionX": 585,
+      "positionY": 129
+    },
+    {
+      "name": "Hockcode",
+      "positionX": 385,
+      "positionY": 521
+    },
+    {
+      "name": "Ruler",
+      "positionX": 199.5,
+      "positionY": 80
+    },
+    {
+      "name": "Ruler",
+      "positionX": -2.8,
+      "positionY": 477
+    }
+  ],
+  "MeasuringAverageSpeed": [
+    {
+      "name": "NbDesk"
+    },
+    {
+      "name": "LongBoard",
+      "positionX": 12,
+      "positionY": -214
+    },
+    {
+      "name": "NbCar"
+    },
+    {
+      "name": "ComTimerNew",
+      "positionX": 689.42,
+      "positionY": -504
+    }
+  ],
+  "Fuses": [
+    {
+      "name": "MetallicWire",
+      "param": { "metaInd": "2" }
+    }
+  ]
+}

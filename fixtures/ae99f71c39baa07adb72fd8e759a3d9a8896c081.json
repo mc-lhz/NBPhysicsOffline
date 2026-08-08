@@ -1,0 +1,1 @@
+{"url": "http://127.0.0.1:8010/__nbapi/consoleUrl/v1/user-config/index?subject_id=1&lang=zh-CN&subjectId=1", "method": "GET", "status": 200, "content_type": "application/json", "b64": false, "body": "{\"code\":0,\"data\":{},\"message\":\"ok\",\"status\":0,\"success\":true}\n"}
