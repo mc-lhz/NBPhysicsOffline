@@ -18,6 +18,9 @@
   var LOCAL = location.origin;
   // 静态化：从 <base href> 读取站点根（GitHub Pages 子路径部署需要），缺省回退到 origin+/
   var BASE = (document.querySelector && document.querySelector('base') && document.querySelector('base').href) || (LOCAL + '/');
+  // 静态化关键：把 webpack publicPath 指向 <base href> 子路径，否则 async chunk / chunk.css 会被请求到站点根 "/"，在 GitHub Pages 子路径部署下 404
+  // main 分支（Flask）base 为 "/"，此处得到 "/"，行为不变；gh-pages 子路径部署得到 "/NBPhysicsOffline/"
+  window.__webpack_public_path__ = (function () { try { return new URL(BASE).pathname; } catch (e) { return BASE; } })();
   var cfg = window.__nb_config || (window.__nb_config = { api: {} });
   cfg.api = cfg.api || {};
 
