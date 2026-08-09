@@ -16,6 +16,8 @@
 
   /* ---------- 1. 把所有远端域名指向本地占位，避免真的发起外网请求 ---------- */
   var LOCAL = location.origin;
+  // 静态化：从 <base href> 读取站点根（GitHub Pages 子路径部署需要），缺省回退到 origin+/
+  var BASE = (document.querySelector && document.querySelector('base') && document.querySelector('base').href) || (LOCAL + '/');
   var cfg = window.__nb_config || (window.__nb_config = { api: {} });
   cfg.api = cfg.api || {};
 
@@ -42,8 +44,8 @@
     baseUrl: LOCAL,
     accountUrl: LOCAL + '/__nbapi/account',
     cookieDomain: location.hostname,
-    // 3D 模型 CDN（noteach）重定向到本地 /__nb3d，由 server.py 代理/回放
-    model3DDomain: LOCAL + '/__nb3d'
+    // 3D 模型 CDN（noteach）重定向到本地 nb3d/（静态文件）；BASE 保证子路径部署正确
+    model3DDomain: BASE + 'nb3d'
   };
   // 关掉埋点 / 调研 / sentry
   window.__nb_sensors = { enabled: '', showlog: '', tenantName: 'nobook', project: 'offline' };
@@ -57,11 +59,15 @@
   (function injectAuthKey() {
     // A) URL 层面注入
     var url = location.href;
-    if (!/[?&]auth_key=/.test(url)) {
-      var sep = url.indexOf('?') >= 0 ? '&' : '?';
-      var fakeAuth = '21-offline' + Date.now().toString(36);
-      try { history.replaceState(null, '', url + sep + 'auth_key=' + encodeURIComponent(fakeAuth)); } catch(e) {}
-      log('URL 注入 auth_key=' + fakeAuth);
+    var sep = url.indexOf('?') >= 0 ? '&' : '?';
+    var need = [];
+    if (!/[?&]auth_key=/.test(url)) need.push('auth_key=' + encodeURIComponent('21-offline' + Date.now().toString(36)));
+    // 静态化：缺/空 moduleId 会触发 bt[moduleId]=undefined → 进不去；补默认 1（替代 Flask 的 302）
+    var mm = /[?&]moduleId=([^&]*)/.exec(url);
+    if (!mm || mm[1] === '') need.push('moduleId=1');
+    if (need.length) {
+      try { history.replaceState(null, '', url + sep + need.join('&')); } catch (e) {}
+      log('URL 注入 ' + need.join('&'));
     }
 
     // B) hook location.search（umi 内部可能从这里读 query）
@@ -263,24 +269,87 @@
     return out;
   }
 
-  // 统一通过本地 server.py 的 /__nbpx 代理：
-  //   RECORD 模式 → 拉真实源站并落盘；REPLAY 模式（默认离线）→ 回放已录响应。
-  function proxyRequest(realUrl, method, body, headers) {
-    return fetch('/__nbpx', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        url: realUrl,
-        method: method || 'GET',
-        body: body == null ? '' : String(body),
-        headers: serializeHeaders(headers)
-      })
+  /* ---------- 3.6 静态化：本地 fixtures 回放（替代 server.py 的 /__nbpx） ---------- */
+  // 纯静态部署（GitHub Pages 等）没有后端，shim 在浏览器内直接读 fixtures/<key>.json。
+  // 键算法与 server.py 完全一致（sha256(method + host无关归一化URL + body)[:40]），
+  // 故 fixtures 与部署主机无关，任意域名/子路径都能命中同一份录制。
+  var EMPTY_OK = { code: 0, status: 0, errcode: 0, success: true, message: 'ok', msg: 'ok', data: {} };
+  var VOLATILE_QS = { _:1, t:1, ts:1, time:1, timestamp:1, rand:1, random:1, nonce:1,
+                      sign:1, signature:1, auth_key:1, token:1, _t:1, cb:1, callback:1, r:1 };
+  var _fxIndexCache = null;
+  function _normHostless(url) {
+    var p; try { p = new URL(url, location.href); } catch (e) { return String(url); }
+    var qs = [];
+    p.searchParams.forEach(function (v, k) { if (!VOLATILE_QS[k.toLowerCase()]) qs.push(k + '=' + v); });
+    qs.sort();
+    return p.pathname + (qs.length ? '?' + qs.join('&') : '');
+  }
+  function _sha256hex(str) {
+    if (window.crypto && crypto.subtle && crypto.subtle.digest) {
+      return crypto.subtle.digest('SHA-256', new TextEncoder().encode(str)).then(function (ab) {
+        var b = new Uint8Array(ab), h = '';
+        for (var i = 0; i < b.length; i++) h += b[i].toString(16).padStart(2, '0');
+        return h.slice(0, 40);
+      });
+    }
+    return Promise.resolve(_fallbackHash(str));   // 非安全上下文应急（localhost/file 仍可走 crypto）
+  }
+  function _fallbackHash(str) { // 仅应急，不保证跨实现一致
+    var h = 0; for (var i = 0; i < str.length; i++) { h = (h * 31 + str.charCodeAt(i)) >>> 0; }
+    var s = h.toString(16); while (s.length < 40) s = '0' + s; return s.slice(0, 40);
+  }
+  function _strictKey(method, url, body) {
+    return _sha256hex(method.toUpperCase() + '\n' + _normHostless(url) + '\n' + (body == null ? '' : String(body)));
+  }
+  function _looseKey(method, url) {
+    var p; try { p = new URL(url, location.href); } catch (e) { p = { pathname: String(url) }; }
+    return _sha256hex(method.toUpperCase() + '\n' + (p.pathname || String(url)));
+  }
+  function _loadFxIndex() {
+    if (_fxIndexCache) return Promise.resolve(_fxIndexCache);
+    return fetch('fixtures/_index.json').then(function (r) { return r.ok ? r.json() : {}; })
+      .then(function (j) { _fxIndexCache = j || {}; return _fxIndexCache; })
+      .catch(function () { _fxIndexCache = {}; return _fxIndexCache; });
+  }
+  function _readFixture(key) {
+    return fetch('fixtures/' + key + '.json').then(function (r) {
+      if (!r.ok) return null;
+      return r.json().catch(function () { return null; });
+    }).catch(function () { return null; });
+  }
+  function _b64ToBytes(b64) {
+    var bin = atob(b64), len = bin.length, bytes = new Uint8Array(len);
+    for (var i = 0; i < len; i++) bytes[i] = bin.charCodeAt(i);
+    return bytes.buffer;
+  }
+  function replayResponse(realUrl, method, bodyStr) {
+    method = method || 'GET'; bodyStr = bodyStr == null ? '' : String(bodyStr);
+    return _strictKey(method, realUrl, bodyStr).then(function (key) {
+      return _readFixture(key).then(function (meta) {
+        if (meta) return meta;
+        return _looseKey(method, realUrl).then(function (lk) {
+          return _loadFxIndex().then(function (idx) {
+            for (var k in idx) { if (idx[k] && idx[k].loose === lk) return _readFixture(k); }
+            return null;
+          });
+        });
+      });
+    }).then(function (meta) {
+      if (!meta) return new Response(JSON.stringify(EMPTY_OK), { status: 200, headers: { 'Content-Type': 'application/json' } });
+      var ct = meta.content_type || 'application/json';
+      var payload = meta.b64 ? _b64ToBytes(meta.body) : (meta.body == null ? '' : meta.body);
+      return new Response(payload, { status: meta.status || 200, headers: { 'Content-Type': ct } });
     });
+  }
+  // 统一通过本地 fixtures 回放（替代 server.py 的 /__nbpx 代理）
+  function proxyRequest(realUrl, method, body, headers) {
+    return replayResponse(realUrl, method, body);
   }
 
   function isLocalAsset(url) {
     var u = String(url);
     if (u.indexOf('/__nbapi/') >= 0) return false;
+    if (u.indexOf('/__nbpx') >= 0) return false;   // 静态化：本地 fixtures 回放
     if (/^(blob:|data:)/.test(u)) return true;
     // 相对路径或同源 → 当作静态资源放行
     if (!/^https?:\/\//.test(u)) return true;
@@ -296,6 +365,12 @@
     if (isLocalAsset(url)) return rawFetch(input, init);
     HITS.push({ via: 'fetch', url: url });
     log('fetch →', url);
+    // 静态化：app 直接 POST /__nbpx 做回放
+    if (/\/__nbpx(\?|$)/.test(url)) {
+      var pb = init && init.body, rb = {};
+      try { rb = JSON.parse(typeof pb === 'string' ? pb : (pb ? JSON.stringify(pb) : '{}')); } catch (e) {}
+      return replayResponse(rb.url || url, rb.method || 'GET', rb.body);
+    }
     var real = resolveReal(url);
     if (!real && /^https?:\/\//.test(url)) real = url; // 直接代理硬编码的真实 URL
     if (real && !shouldMock(url)) {
@@ -368,6 +443,15 @@
   XP.send = function (bodyArg) {
     if (!this.__nbMock) return rawSend.apply(this, arguments);
     var self = this;
+    // 静态化：app 直接 POST /__nbpx 做回放
+    if (/\/__nbpx(\?|$)/.test(self.__nbUrl)) {
+      var rb = {}; try { rb = JSON.parse(typeof bodyArg === 'string' ? bodyArg : '{}'); } catch (e) {}
+      replayResponse(rb.url || self.__nbUrl, rb.method || 'GET', rb.body)
+        .then(function (r) { return r.text(); })
+        .then(function (text) { respondXHR(self, text); })
+        .catch(function () { respondXHR(self, JSON.stringify(mockFor(self.__nbUrl))); });
+      return;
+    }
     var real = resolveReal(self.__nbUrl);
     if (!real && /^https?:\/\//.test(self.__nbUrl)) real = self.__nbUrl; // 直接代理硬编码真实 URL
     if (real && !shouldMock(self.__nbUrl)) {
