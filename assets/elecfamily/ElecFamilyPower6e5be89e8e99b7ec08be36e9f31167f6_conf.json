@@ -1,0 +1,719 @@
+{
+  "type": "sprite",
+  "x": 0,
+  "y": 0,
+  "name": "compnent",
+  "0": {
+    "x": -334,
+    "y": 196.75,
+    "name": "fang",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "变压箱.png",
+      "x": 0,
+      "y": 0,
+      "r": 0,
+      "sx": 0.5836639404296875,
+      "sy": 0.583648681640625,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "1": {
+    "x": 452,
+    "y": 210,
+    "name": "proSet",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "shape",
+      "path": [
+        255, 0, 0, 2, 0, 50, 2, 50, 50, 2, 50, 0, 2, 0, 0, 2, 0, 0, 1, 1,
+        3342591, 33
+      ]
+    }
+  },
+  "2": {
+    "x": 251.15,
+    "y": 135.45,
+    "w": 22.75,
+    "h": 13.25,
+    "name": "unitTxtSP",
+    "type": "text",
+    "r": 0,
+    "txt": "kW·h",
+    "a": "left",
+    "f": "7px 'Microsoft YaHei'",
+    "c": "#4A4949",
+    "wrap": true
+  },
+  "3": {
+    "x": 0,
+    "y": -95.55,
+    "name": "bp2",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "shape",
+      "path": [
+        255, 0, 20, 2, 20, 20, 2, 20, 0, 2, 0, 0, 2, 0, 20, 2, 0, 20, 1, 1,
+        15255186, 33
+      ]
+    }
+  },
+  "4": {
+    "x": -28,
+    "y": -95.55,
+    "name": "bp1",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "shape",
+      "path": [
+        255, 0, 20, 2, 20, 20, 2, 20, 0, 2, 0, 0, 2, 0, 20, 2, 0, 20, 1, 1,
+        15255186, 33
+      ]
+    }
+  },
+  "5": {
+    "x": -60,
+    "y": -95.55,
+    "name": "bp0",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "shape",
+      "path": [
+        255, 0, 20, 2, 20, 20, 2, 20, 0, 2, 0, 0, 2, 0, 20, 2, 0, 20, 1, 1,
+        15255186, 33
+      ]
+    }
+  },
+  "6": {
+    "x": 349.95,
+    "y": -64.45,
+    "name": "jiedi",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "Bitmap 5",
+      "x": 0,
+      "y": 0,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "7": {
+    "x": 421.7,
+    "y": 56,
+    "name": "jxkgonoff",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1.03582763671875,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 2,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 3",
+        "x": -3,
+        "y": -0.35,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      },
+      "1": {
+        "type": "bitmap",
+        "libName": "关.png",
+        "x": 0,
+        "y": 83,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 2,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 3",
+        "x": -3,
+        "y": -0.35,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      },
+      "1": {
+        "type": "bitmap",
+        "libName": "开.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "8": {
+    "x": 415,
+    "y": 98,
+    "name": "jxkg",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "闸盒.png",
+      "x": 0,
+      "y": 0,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "9": {
+    "x": 419,
+    "y": 205,
+    "name": "kqkgonoff",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 2,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 4",
+        "x": 0,
+        "y": 0.05,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      },
+      "1": {
+        "type": "bitmap",
+        "libName": "OFF.png 复制",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 2,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 4",
+        "x": 0,
+        "y": 0.05,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      },
+      "1": {
+        "type": "bitmap",
+        "libName": "ON.png 复制",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "10": {
+    "x": 454,
+    "y": 233,
+    "name": "baoxiansi",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "保险丝20.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "保险丝20坏.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "保险丝30.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "3": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "保险丝30坏.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "4": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "保险丝40.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "5": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "保险丝40坏.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "11": {
+    "x": 505.7,
+    "y": 191.7,
+    "name": "anxiabtn",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 2,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 1",
+        "x": -6.5,
+        "y": -9.7,
+        "r": 0,
+        "sx": 0.314422607421875,
+        "sy": 0.2843475341796875,
+        "skewX": 0,
+        "skewY": 0
+      },
+      "1": {
+        "type": "bitmap",
+        "libName": "开.png 复制 2",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 2,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 1",
+        "x": -6.5,
+        "y": -9.7,
+        "r": 0,
+        "sx": 0.314422607421875,
+        "sy": 0.2843475341796875,
+        "skewX": 0,
+        "skewY": 0
+      },
+      "1": {
+        "type": "bitmap",
+        "libName": "关.png 复制 2",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "12": {
+    "x": 505,
+    "y": 238.45,
+    "name": "anxia",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 2,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 1",
+        "x": -3.95,
+        "y": -7.7,
+        "r": 0,
+        "sx": 0.2494964599609375,
+        "sy": 0.2843475341796875,
+        "skewX": 0,
+        "skewY": 0
+      },
+      "1": {
+        "type": "bitmap",
+        "libName": "开.png 复制",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 2,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 1",
+        "x": -3.95,
+        "y": -7.7,
+        "r": 0,
+        "sx": 0.2494964599609375,
+        "sy": 0.2843475341796875,
+        "skewX": 0,
+        "skewY": 0
+      },
+      "1": {
+        "type": "bitmap",
+        "libName": "关.png 复制",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "13": {
+    "x": 412,
+    "y": 134,
+    "name": "kqkg",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "空开.png 复制",
+      "x": 8,
+      "y": -1,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "14": {
+    "x": 1.1,
+    "y": 70.8,
+    "name": "lines",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "电线1改.png",
+        "x": -124.9,
+        "y": -0.6,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "电线2改.png",
+        "x": -124.8,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "15": {
+    "type": "bitmap",
+    "libName": "number_led",
+    "x": -327,
+    "y": -86,
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "skewX": 0,
+    "skewY": 0
+  },
+  "16": {
+    "type": "bitmap",
+    "libName": "number_common",
+    "x": -239,
+    "y": -65,
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "skewX": 0,
+    "skewY": 0
+  },
+  "17": {
+    "x": 175.6,
+    "y": 159.7,
+    "name": "maichong",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "脉冲on.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 0.3285675048828125,
+        "sy": 0.3285675048828125,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "脉冲off.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 0.3285675048828125,
+        "sy": 0.3285675048828125,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "18": {
+    "type": "bitmap",
+    "libName": "number_dot",
+    "x": -431,
+    "y": 66,
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "skewX": 0,
+    "skewY": 0
+  },
+  "19": {
+    "x": 109.4,
+    "y": 83.45,
+    "name": "energy",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "电能表大.png",
+        "x": 11.7,
+        "y": -0.45,
+        "r": 0,
+        "sx": 0.328948974609375,
+        "sy": 0.32904052734375,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "插卡电能表大2.png",
+        "x": 1.15,
+        "y": 1.75,
+        "r": 0,
+        "sx": 0.329742431640625,
+        "sy": 0.3297271728515625,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "20": {
+    "type": "bitmap",
+    "libName": "tiaobmd",
+    "x": 28,
+    "y": 171,
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "skewX": 0,
+    "skewY": 0
+  },
+  "21": {
+    "x": 79,
+    "y": 63,
+    "name": "bg",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "木板.png",
+      "x": 0,
+      "y": 0,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  }
+}

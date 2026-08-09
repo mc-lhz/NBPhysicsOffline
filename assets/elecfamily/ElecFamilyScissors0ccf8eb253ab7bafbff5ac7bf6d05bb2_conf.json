@@ -1,0 +1,110 @@
+{
+  "type": "sprite",
+  "x": 0,
+  "y": 0,
+  "name": "",
+  "0": {
+    "x": 0,
+    "y": 0,
+    "name": "bg",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "x": 0.5,
+      "y": 0.5,
+      "name": "hot",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 3",
+        "x": -15,
+        "y": -15,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "x": -65,
+      "y": -28,
+      "name": "pliers",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "bitmap",
+        "libName": "老虎钳.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "x": 0,
+      "y": 0,
+      "name": "wireBundle",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "bitmap",
+        "libName": "绝缘胶带.png",
+        "x": 73,
+        "y": -13,
+        "r": 1.5707963267948966,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 1.5707963267948966,
+        "skewY": 1.5707963267948966
+      },
+      "1": {
+        "type": "bitmap",
+        "libName": "绝缘胶带.png",
+        "x": -13,
+        "y": -13,
+        "r": 1.5707963267948966,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 1.5707963267948966,
+        "skewY": 1.5707963267948966
+      },
+      "2": {
+        "x": 0,
+        "y": -1,
+        "name": "wireBackBox",
+        "type": "sprite",
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "a": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  }
+}
