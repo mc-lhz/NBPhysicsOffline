@@ -8,14 +8,15 @@
 ```
 nbphysics-offline/
 ├── index.html              # 物理版入口（引用 umi.575bfdda.js / phy.ico / 注释掉 CDN 脚本）
-├── nb-offline-shim.js      # 离线垫片（从化学包复制，零改动）
+├── nb-offline-shim.js      # 离线垫片（化学包移植；已加 model3DDomain→/__nb3d 重定向）
 ├── nb-vip-local.js         # VIP 数据注入（从化学包复制，零改动，PIDs 已含 czwl/gzwl）
-├── server.py               # Flask 本地服务器（ORIGIN=wl.nobook.com；含 chunk.css/dependJS 占位）
+├── server.py               # Flask 本地服务器（ORIGIN=wl.nobook.com；/__nb3d 代理 noteach CDN；chunk.css/dependJS 占位）
 ├── restore-shim.js         # 还原脚本（备用品）
 ├── umi.575bfdda.js         # 物理站主包 6.29MB
 ├── umi.96f4e3ed.css         # 主样式 5.53MB
 ├── physics-libs.min.js      # 物理引擎库（根目录，physics serial 加载）
 ├── physics-libs-chunk/       # 物理引擎内部 2528 chunk（独立 webpack runtime 懒加载）
+├── nb3d/                     # 3D 模型镜像（noteach CDN：14 个 .glb 预镜像 + --record 自愈缓存）
 ├── assets/physics-libs-vandor.min.js  # 物理引擎 vendor 库（含 PIXI/TweenMax/mousewheel）
 ├── assets/nb-config.js     # 物理站配置（originUrl=wl）
 ├── assets/ js/             # 本地依赖（jquery/lodash/tinymce/... 已镜像）
@@ -25,7 +26,7 @@ nbphysics-offline/
 ├── assets/index-04b904d7.min.js  # Web Worker（subscriptions）
 ├── assets/dependJS/        # 版本捆绑产物占位（源站也404，引擎已并入 physics-libs）
 ├── phy.ico
-├── fixtures/               # 实验数据录制目录（当前空，需 --record 填充）
+├── fixtures/               # 实验数据录制目录（--record 填充，见第八节全量镜像）
 ├── mirror.py / mirror_static.py / re_mirror_external.py / re_mirror_css.py / _extract.py  # 镜像脚本
 ├── mirror_physics_libs_chunks.py  # 第三论新增：提取并全量镜像 physics-libs 内部 2528 chunk
 └── verify_trick.js         # Node 验证空密文 trick（见下文）
@@ -98,8 +99,8 @@ NODE_PATH=<node_workspace>/node_modules node verify_trick.js
 |------|------|------|
 | 100 个 chunk.css 源站也 404（样式并入 umi.css） | 仅个别组件缺独立样式 | 已用空 CSS 占位兜底，umi.css 覆盖主样式 |
 | 3 个常规 async.js（1704/4517/6164）源站 404 | 极个别特性缺失 | 暂忽略 |
-| 3D 模型走 `model3DDomain`（noteach CDN），shim 未重定向 | 3D 模型离线缺失（UI 不崩） | 需镜像模型资源并补 shim 快照 |
-| 实验数据 fixtures 录制中 | 实验数据随用户浏览自动录制 | 已 `--record` 模式运行，待确认浏览后已落盘 |
+| 3D 模型走 `model3DDomain`（noteach CDN），shim 未重定向 | 3D 模型离线缺失（UI 不崩） | ✅ 已解决：shim 重定向 `model3DDomain`→`/__nb3d`；`server.py` 加 `/__nb3d` 代理；预镜像 14 个 `.glb`（见第八节） |
+| 实验数据 fixtures 录制中 | 实验数据随用户浏览自动录制 | `--record` 模式运行；需做一次"全实验录制 pass"（见第八节） |
 | shim 内 `subject:'chemistry'` / `gradeId:3` 为化学硬编码 | 仅 fallback dispatch 用；app 自设 gradeId=2 时已跳过 | 如需强制兜底物理学段可改，当前不影响 |
 
 ## 七、镜像脚本说明
@@ -111,3 +112,46 @@ NODE_PATH=<node_workspace>/node_modules node verify_trick.js
 - `re_mirror_css.py`：补下真实存在的 `<id>.<hash>.chunk.css`（与 JS 不同 hash）
 - `mirror_physics_libs_chunks.py`：第三轮新增，从 `physics-libs.min.js` 提取 2528 个 `{chunkId:hash}` 映射，多线程下载全部 `physics-libs-chunk/<hash>.min.js`（独立 webpack runtime 内部 chunk）
 - `verify_trick.js`：用真实 crypto-js 复现 `pw()` 验证空密文 trick
+
+## 八、全量镜像：3D 模型 + 全实验录制
+
+### 8.1 3D 模型 CDN（noteach）已落地
+
+- `nb-config.js` 的 `model3DDomain = https://nobook-test-cdn.noteach.com.cn`；3D viewer（NB3DDemo/Babylon）按 `host + "/models/phy/<name>.glb"` 加载。
+- 改造：
+  1. `nb-offline-shim.js`：`window.__nb_domain.model3DDomain = LOCAL + '/__nb3d'`（化学 shim 原本整体替换 `__nb_domain` 丢了该字段）。
+  2. `server.py`：新增 `@app.route("/__nb3d/<path:rest>")` —— 本地 `nb3d/<rest>` 有则回放；`--record` 模式回源 `https://nobook-test-cdn.noteach.com.cn/<rest>` 抓取并落盘。
+  3. 预镜像 14 个 `.glb`（从 9662 chunk 提取的硬编码 URL，16.9MB）到 `nb3d/models/phy/`：moter / inlandAmpereMeter / elecSlideRheostat / electromagneticRelay / bicyceLeamp / elecFamilyLight / galileoThermometer / spiralMicrometer / springTension / steelyard / testPencil / tickerTimer / vernierCaliper / windlass。
+- 验证：`GET /__nb3d/models/phy/moter.glb?v=...` → 200 / `model/gltf-binary` / 1920020B。3D 实验（moduleId 1/2/5/7）离线可直接加载；其余 3D 资源（.bin/贴图）由 `--record` 自愈。
+
+### 8.2 全实验录制 pass（一次性，联网）
+
+物理站共 **12 个模块**。`--record` 模式下，浏览每个模块会把其 runtime 资源（贴图/音效，content-hash 指纹）+ 实验数据 fixtures 自动抓取落盘到 `assets/`、`static/`、`fixtures/`。录完后切回默认 REPLAY 即可全离线运行。
+
+| moduleId | 模块 | 器材数 | 3D | module |
+|---:|---|---:|:--:|---|
+| 1 | 电与磁 | 120 | Y | electricity |
+| 2 | 光学 | 42 | Y | optical |
+| 3 | 声学 | 17 | - | acoustic |
+| 4 | 热学 | 47 | - | thermal |
+| 5 | 力学 | 121 | Y | mechanics |
+| 7 | 家庭电路 | 25 | Y | elecfamily |
+| 8 | 力与运动 | 31 | - | forceAndMotion |
+| 9 | 近代物理 | 31 | - | atomicPhysics |
+| 10 | 受力分析 | 10 | - | forceAnalysis |
+| 11 | 动态平衡 | 25 | - | dynamicBalance |
+| 12 | 互动课件 | 2 | - | game |
+| 13 | 固体压强切割 | 10 | - | solidPressureCutting |
+
+录制步骤：
+1. `python server.py --record`（已运行）。
+2. 浏览器依次打开 `http://127.0.0.1:8010/physics/new?moduleId=<id>`（上表 12 个 id），每个模块进入后**拖动/使用几个器材**触发其贴图与音效加载；3D 模块（1/2/5/7）点开 3D 器材确认模型加载。
+3. 录制进度可查：`http://127.0.0.1:8010/__nbmode`（`fixtures` 计数）与 `/__nbfixtures`。
+4. 全部走完后，`Ctrl+C` 停服，改 `python server.py`（默认 REPLAY）即全离线运行。
+
+### 8.3 离线回放验证（录制后）
+
+- `python server.py`（不加 `--record`）。
+- 打开一个 2D 实验（如 moduleId=9 近代物理）+ 一个 3D 实验（如 moduleId=1 电与磁 → 小电机）。
+- 控制台 `window.__nbShimHits` 应只见本地请求；`/__nbmode` 显示 `record:false`、`fixtures` 计数稳定。
+- 断网后仍可正常做实验即全量镜像完成。

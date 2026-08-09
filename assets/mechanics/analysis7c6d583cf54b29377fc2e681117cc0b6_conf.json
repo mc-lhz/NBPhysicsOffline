@@ -1,0 +1,40 @@
+{
+  "type": "sprite",
+  "x": 0,
+  "y": 0,
+  "name": "",
+  "0": {
+    "type": "bitmap",
+    "libName": "muwen.png",
+    "x": -50,
+    "y": -93,
+    "r": 0,
+    "sx": 0.25,
+    "sy": 0.25,
+    "skewX": 0,
+    "skewY": 0
+  },
+  "1": {
+    "x": 77,
+    "y": -93,
+    "name": "",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "newCurves.png",
+      "x": 0,
+      "y": 0,
+      "r": 0,
+      "sx": 0.25,
+      "sy": 0.25,
+      "skewX": 0,
+      "skewY": 0
+    }
+  }
+}

@@ -41,7 +41,9 @@
     passportUrl: LOCAL + '/__nbapi/passport',
     baseUrl: LOCAL,
     accountUrl: LOCAL + '/__nbapi/account',
-    cookieDomain: location.hostname
+    cookieDomain: location.hostname,
+    // 3D 模型 CDN（noteach）重定向到本地 /__nb3d，由 server.py 代理/回放
+    model3DDomain: LOCAL + '/__nb3d'
   };
   // 关掉埋点 / 调研 / sentry
   window.__nb_sensors = { enabled: '', showlog: '', tenantName: 'nobook', project: 'offline' };

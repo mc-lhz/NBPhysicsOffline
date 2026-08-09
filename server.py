@@ -14,6 +14,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 PORT = 8010
 RECORD = "--record" in sys.argv
 ORIGIN = "https://wl.nobook.com"
+NB3D_CDN = "https://nobook-test-cdn.noteach.com.cn"
 
 if RECORD:
     import urllib3
@@ -272,6 +273,37 @@ def nbfixtures():
     })
 
 
+NB3D_DIR = os.path.join(ROOT, "nb3d")
+os.makedirs(NB3D_DIR, exist_ok=True)
+
+
+@app.route("/__nb3d/<path:rest>")
+def nb3d(rest):
+    """3D 模型 CDN（noteach）代理：本地有就回放；录制模式回源抓取并落盘到 nb3d/。"""
+    local = os.path.join(NB3D_DIR, *rest.split("/"))
+    if os.path.isfile(local):
+        d, n = os.path.split(local)
+        return send_from_directory(d, n)
+    if RECORD:
+        try:
+            url = f"{NB3D_CDN}/{rest}"
+            if request.query_string:
+                url += "?" + request.query_string.decode()
+            r = UP.get(url, timeout=60)
+            if r.status_code == 200:
+                os.makedirs(os.path.dirname(local), exist_ok=True)
+                with open(local, "wb") as f:
+                    f.write(r.content)
+                print(f"  [3d-rec] {rest}  ({len(r.content)}B)")
+                ct = r.headers.get("Content-Type", mimetypes.guess_type(rest)[0] or "model/gltf-binary")
+                return Response(r.content, mimetype=ct.split(";")[0])
+            print(f"  [3d-rec-{r.status_code}] {rest}")
+        except Exception as e:
+            print(f"  [3d-err] {rest} {e}")
+    log_missing("/__nb3d/" + rest)
+    return Response("not found", status=404)
+
+
 SPA_PREFIXES = (
     "chemical", "chemicalPlayer", "chemicalCrystal", "chemicalPrinciple",
     "organicMoleculeDiy", "console", "guidance", "homeworkTask", "homeworkPost",
@@ -291,6 +323,10 @@ def serve(path):
     first = path.split("/")[0] if path else ""
     # SPA 路由回退
     if not path or first in SPA_PREFIXES:
+        # physics 入口缺 moduleId 会导致 app bt[moduleId]=undefined
+        # -> "Cannot find module './undefined'" 进不去；自动补默认 moduleId=1（电与磁）
+        if first == "physics" and not (request.args.get("moduleId") or "").strip():
+            return Response(status=302, headers={"Location": "/physics/new?moduleId=1"})
         return send_from_directory(ROOT, "index.html")
 
     # 录制模式：回源抓取并落盘
