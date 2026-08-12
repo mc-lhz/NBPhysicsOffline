@@ -289,10 +289,39 @@
     } catch (e) { return false; }
   }
 
+  // 本地静态资源缺失时的源站兜底域名：assets.nobook.com 开放 CORS（ACAO:*），
+  // 浏览器可跨域真抓缺失的器材/场景 JSON，返回真实数据（避免 {} 占位导致器材构建崩溃）。
+  var EMPTY_ASSET = '{}';
+  var CDN_ORIGIN = 'https://assets.nobook.com';
+  function toCdnUrl(localUrl) {
+    try {
+      var u = new URL(localUrl, location.href);
+      var baseEl = document.querySelector && document.querySelector('base');
+      var basePath = (baseEl && baseEl.getAttribute && baseEl.getAttribute('href')) || '';
+      if (basePath) { try { basePath = new URL(basePath, location.href).pathname; } catch (e) { basePath = ''; } }
+      if (!basePath || basePath === '/') basePath = (location.pathname && location.pathname !== '/') ? location.pathname : '';
+      var p = u.pathname;
+      if (basePath && p.indexOf(basePath) === 0) p = p.slice(basePath.length) || '/';
+      return CDN_ORIGIN + p;
+    } catch (e) { return null; }
+  }
+
+  // 需要 404 兜底兜住的“本地静态资源”：器材/场景数据 JSON（含 _conf.json）。
+  // 这些文件 mirror 时可能漏抓（录制会话没拖过对应器材），线上会 404 → 加载器无限重试。
+  // 只兜底这类，避免掩盖应用脚本（JS/CSS）的真实缺失。
+  function isLocalStaticAsset(url) {
+    var u = String(url);
+    if (!isLocalAsset(u)) return false;
+    if (/\/assets\//i.test(u)) return true;
+    if (/\.(json|conf)(\?|$)/i.test(u)) return true;
+    return false;
+  }
+
   /* ---------- 4. 拦 fetch ---------- */
   var rawFetch = window.fetch ? window.fetch.bind(window) : null;
   window.fetch = function (input, init) {
     var url = typeof input === 'string' ? input : (input && input.url) || '';
+    if (isLocalStaticAsset(url)) return fetchLocalAsset(input, init);
     if (isLocalAsset(url)) return rawFetch(input, init);
     HITS.push({ via: 'fetch', url: url });
     log('fetch →', url);
@@ -307,6 +336,30 @@
       status: 200, headers: { 'Content-Type': 'application/json' }
     }));
   };
+
+  /* ---------- 3.7 本地静态资源 404 兜底（fetch 通道） ----------
+   * 本地 assets/ 下器材/场景 JSON 缺失时，从源站 assets.nobook.com（CORS 开放）真抓真实数据
+   * 返回（消除 PIXI 加载器对 404 的无限重试），且避免 {} 占位导致器材构建崩溃。
+   * 仅源站也 404 才退回 EMPTY_ASSET='{}' 占位。 */
+  function fetchLocalAsset(input, init) {
+    var label = typeof input === 'string' ? input : (input && input.url) || '';
+    return rawFetch(input, init).then(function (res) {
+      if (res.ok) return res;
+      var cdn = toCdnUrl(label);
+      if (cdn) {
+        log('local asset 404(fetch) → 源站兜底', label);
+        return rawFetch(cdn, init).then(function (cres) {
+          if (cres.ok) return cres;
+          log('源站也 404(fetch) → 占位', label);
+          return new Response(EMPTY_ASSET, { status: 200, statusText: 'OK', headers: { 'Content-Type': 'application/json' } });
+        });
+      }
+      log('local asset 404(fetch) → 占位', label);
+      return new Response(EMPTY_ASSET, { status: 200, statusText: 'OK', headers: { 'Content-Type': 'application/json' } });
+    }).catch(function () {
+      return new Response(EMPTY_ASSET, { status: 200, statusText: 'OK', headers: { 'Content-Type': 'application/json' } });
+    });
+  }
 
   /* ---------- 5. 拦 XHR（原型补丁，保留原生对象，不破坏 responseType/事件） ---------- */
   var XP = XMLHttpRequest.prototype;
@@ -324,7 +377,10 @@
     this.__nbMethod = method || 'GET';
     this.__nbHeaders = {};
     this.__nbMock = !isLocalAsset(url);
-    if (!this.__nbMock) return rawOpen.apply(this, arguments);
+    if (!this.__nbMock) {
+      this.__nbLocalAsset = isLocalStaticAsset(url);
+      return rawOpen.apply(this, arguments);
+    }
     HITS.push({ via: 'xhr', url: url, method: method });
     log('xhr →', method, url);
   };
@@ -366,6 +422,8 @@
   }
 
   XP.send = function (bodyArg) {
+    // §5.4 本地静态资源 404 兜底：走 fetch 真实请求，本地缺失则跨域真抓源站真实数据
+    if (this.__nbLocalAsset && !this.__nbMock) return sendLocalAssetXHR(this, bodyArg);
     if (!this.__nbMock) return rawSend.apply(this, arguments);
     var self = this;
     var real = resolveReal(self.__nbUrl);
@@ -381,6 +439,40 @@
     var text = JSON.stringify(mockFor(self.__nbUrl));
     setTimeout(function () { respondXHR(self, text); }, 0);
   };
+
+  /* ---------- 5.4 本地静态资源 404 兜底（XHR 通道） ----------
+   * 器材/场景 JSON 在 mirror 时可能漏抓 → 线上 404。本地缺失时跨域真抓 assets.nobook.com 真实数据返回，
+   * 消除 PIXI 加载器无限重试且避免 {} 占位导致器材构建崩溃。仅源站也 404 才退回 EMPTY_ASSET='{}'。 */
+  function sendLocalAssetXHR(self, bodyArg) {
+    var method = self.__nbMethod || 'GET';
+    var url = self.__nbUrl;
+    var headers = self.__nbHeaders || {};
+    self.__nbMock = true;   // 走 shim 的响应通道（提供 content-type / status 200）
+    try {
+      rawFetch(url, { method: method, headers: headers, body: bodyArg })
+        .then(function (res) {
+          if (res.ok) {
+            return res.text().then(function (t) { respondXHR(self, t); });
+          }
+          var cdn = toCdnUrl(url);
+          if (cdn) {
+            log('local asset 404(xhr) → 源站兜底', url);
+            return rawFetch(cdn, { method: method, headers: headers, body: bodyArg })
+              .then(function (cres) {
+                if (cres.ok) return cres.text().then(function (t) { respondXHR(self, t); });
+                log('源站也 404(xhr) → 占位', url);
+                respondXHR(self, EMPTY_ASSET);
+              })
+              .catch(function () { respondXHR(self, EMPTY_ASSET); });
+          }
+          log('local asset 404(xhr) → 占位', url);
+          respondXHR(self, EMPTY_ASSET);
+        })
+        .catch(function () { respondXHR(self, EMPTY_ASSET); });
+    } catch (e) {
+      respondXHR(self, EMPTY_ASSET);
+    }
+  }
 
   /* ---------- 5.5 保存 shim 的 XHR/fetch 版本，供 restore-shim.js 在 vip 脚本之后还原 ---------- */
   /* 必须放在 XP.send / XP.open 等覆盖之后，这样保存的是 shim 自己的版本，而非原生。 */
