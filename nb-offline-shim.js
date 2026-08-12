@@ -277,6 +277,9 @@
   // 键算法与 server.py 完全一致（sha256(method + host无关归一化URL + body)[:40]），
   // 故 fixtures 与部署主机无关，任意域名/子路径都能命中同一份录制。
   var EMPTY_OK = { code: 0, status: 0, errcode: 0, success: true, message: 'ok', msg: 'ok', data: {} };
+  // 本地静态资源（器材/场景 JSON 等）缺失时的占位体：让 PIXI 加载器视为“加载成功”，
+  // 从而终止其对 404 的无限重试（见 §3.7 / §5.4）。
+  var EMPTY_ASSET = '{}';
   var VOLATILE_QS = { _:1, t:1, ts:1, time:1, timestamp:1, rand:1, random:1, nonce:1,
                       sign:1, signature:1, auth_key:1, token:1, _t:1, cb:1, callback:1, r:1 };
   var _fxIndexCache = null;
@@ -349,6 +352,30 @@
     return replayResponse(realUrl, method, body);
   }
 
+  /* ---------- 3.7 本地静态资源 404 兜底（fetch 通道） ----------
+   * 与 §5.4 的 XHR 通道对称：同源静态资源（assets/ 下 JSON）若真实 404，
+   * 返回一个 200 + '{}' 的占位 Response，阻止上层加载器死循环重试。 */
+  function fetchLocalAsset(input, init) {
+    var label = typeof input === 'string' ? input : (input && input.url) || '';
+    return rawFetch(input, init).then(function (res) {
+      if (res.ok) return res;
+      // 本地缺失 → 源站 assets.nobook.com 真抓（CORS 开放），返回真实器材数据
+      var cdn = toCdnUrl(label);
+      if (cdn) {
+        log('local asset 404(fetch) → 源站兜底', label);
+        return rawFetch(cdn, init).then(function (cres) {
+          if (cres.ok) return cres;
+          log('源站也 404(fetch) → 占位', label);
+          return new Response(EMPTY_ASSET, { status: 200, statusText: 'OK', headers: { 'Content-Type': 'application/json' } });
+        });
+      }
+      log('local asset 404(fetch) → 占位', label);
+      return new Response(EMPTY_ASSET, { status: 200, statusText: 'OK', headers: { 'Content-Type': 'application/json' } });
+    }).catch(function () {
+      return new Response(EMPTY_ASSET, { status: 200, statusText: 'OK', headers: { 'Content-Type': 'application/json' } });
+    });
+  }
+
   function isLocalAsset(url) {
     var u = String(url);
     if (u.indexOf('/__nbapi/') >= 0) return false;
@@ -361,11 +388,38 @@
     } catch (e) { return false; }
   }
 
+  // 本地静态资源缺失时的源站兜底域名：assets.nobook.com 开放 CORS（ACAO:*），
+  // 浏览器可跨域真抓缺失的器材/场景 JSON，返回真实数据（避免 {} 占位导致器材构建崩溃）。
+  var CDN_ORIGIN = 'https://assets.nobook.com';
+  function toCdnUrl(localUrl) {
+    try {
+      var u = new URL(localUrl, location.href);
+      var basePath = (function () { try { return new URL(BASE).pathname; } catch (e) { return '/'; } })();
+      var p = u.pathname;
+      if (basePath && basePath !== '/' && p.indexOf(basePath) === 0) p = p.slice(basePath.length) || '/';
+      return CDN_ORIGIN + p;
+    } catch (e) { return null; }
+  }
+
+  // 需要 404 兜底兜住的“本地静态资源”：器材/场景数据 JSON（含 _conf.json）。
+  // 这些文件 mirror 时可能漏抓（录制会话没拖过对应器材），线上会 404 → 加载器无限重试。
+  // 只兜底这类，避免掩盖应用脚本（JS/CSS）的真实缺失。
+  function isLocalStaticAsset(url) {
+    var u = String(url);
+    if (!isLocalAsset(u)) return false;
+    if (/\/assets\//i.test(u)) return true;
+    if (/\.(json|conf)(\?|$)/i.test(u)) return true;
+    return false;
+  }
+
   /* ---------- 4. 拦 fetch ---------- */
   var rawFetch = window.fetch ? window.fetch.bind(window) : null;
   window.fetch = function (input, init) {
     var url = typeof input === 'string' ? input : (input && input.url) || '';
-    if (isLocalAsset(url)) return rawFetch(input, init);
+    if (isLocalAsset(url)) {
+      if (isLocalStaticAsset(url)) return fetchLocalAsset(input, init);
+      return rawFetch(input, init);
+    }
     HITS.push({ via: 'fetch', url: url });
     log('fetch →', url);
     // 静态化：app 直接 POST /__nbpx 做回放
@@ -402,7 +456,10 @@
     this.__nbMethod = method || 'GET';
     this.__nbHeaders = {};
     this.__nbMock = !isLocalAsset(url);
-    if (!this.__nbMock) return rawOpen.apply(this, arguments);
+    if (!this.__nbMock) {
+      this.__nbLocalAsset = isLocalStaticAsset(url);
+      return rawOpen.apply(this, arguments);
+    }
     HITS.push({ via: 'xhr', url: url, method: method });
     log('xhr →', method, url);
   };
@@ -443,7 +500,48 @@
     try { self.dispatchEvent(new Event('loadend')); } catch (e) { }
   }
 
+  /* ---------- 5.4 本地静态资源 404 兜底（XHR 通道） ----------
+   * 器材/场景 JSON 在 mirror 时可能漏抓 → 线上 404。physics-libs-vandor 的
+   * PIXI 加载器会对 404 无限重试（“try once load”死循环）。这里把本地静态资源
+   * 请求改用 fetch 真实发送：成功则透传原文；404/网络错误则合成 200 + '{}'，
+   * 让加载器视为成功而终止重试。原生 XHR 仅 open 不 send，避免原生事件干扰。 */
+  function sendLocalAssetXHR(self, bodyArg) {
+    var method = self.__nbMethod || 'GET';
+    var url = self.__nbUrl;
+    var headers = self.__nbHeaders || {};
+    self.__nbMock = true;   // 走 shim 的响应通道（提供 content-type / status 200）
+    try {
+      rawFetch(url, { method: method, headers: headers, body: bodyArg })
+        .then(function (res) {
+          if (res.ok) {
+            return res.text().then(function (t) { respondXHR(self, t); });
+          }
+          // 本地缺失 → 源站 assets.nobook.com 真抓（CORS 开放），返回真实器材数据
+          var cdn = toCdnUrl(url);
+          if (cdn) {
+            log('local asset 404(xhr) → 源站兜底', url);
+            return rawFetch(cdn, { method: method, headers: headers, body: bodyArg })
+              .then(function (cres) {
+                if (cres.ok) return cres.text().then(function (t) { respondXHR(self, t); });
+                log('源站也 404(xhr) → 占位', url);
+                respondXHR(self, EMPTY_ASSET);
+              })
+              .catch(function () { respondXHR(self, EMPTY_ASSET); });
+          }
+          log('local asset 404(xhr) → 占位', url);
+          respondXHR(self, EMPTY_ASSET);
+        })
+        .catch(function () { respondXHR(self, EMPTY_ASSET); });
+    } catch (e) {
+      respondXHR(self, EMPTY_ASSET);
+    }
+  }
+
   XP.send = function (bodyArg) {
+    // §5.4 本地静态资源 404 兜底：走 fetch 真实请求，404 时返回 '{}'(200)
+    if (this.__nbLocalAsset && !this.__nbMock) {
+      return sendLocalAssetXHR(this, bodyArg);
+    }
     if (!this.__nbMock) return rawSend.apply(this, arguments);
     var self = this;
     // 静态化：app 直接 POST /__nbpx 做回放
