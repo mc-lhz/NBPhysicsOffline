@@ -1,0 +1,1 @@
+{"type":"sprite","x":0,"y":0,"name":"compnent","0":{"type":"bitmap","libName":"skin.none","x":78.3,"y":41.85,"r":0,"sx":1,"sy":1,"skewX":0,"skewY":0},"1":{"type":"bitmap","libName":"skin.negative","x":50.35,"y":41.85,"r":0,"sx":1,"sy":1,"skewX":0,"skewY":0},"2":{"type":"bitmap","libName":"skin.positive","x":105.75,"y":41.85,"r":0,"sx":1,"sy":1,"skewX":0,"skewY":0}}

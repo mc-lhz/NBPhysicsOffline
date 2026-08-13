@@ -1,0 +1,1 @@
+{"type":"sprite","x":0,"y":0,"name":"secondaryball","0":{"x":0,"y":0,"name":"bg","type":"sprite","r":0,"sx":1,"sy":1,"a":1,"skewX":0,"skewY":0,"0":{"type":"bitmap","libName":"大球.png","x":-58,"y":-57.55,"r":0,"sx":1,"sy":1,"skewX":0,"skewY":0}}}

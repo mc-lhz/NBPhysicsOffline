@@ -1,0 +1,76 @@
+{
+  "type": "sprite",
+  "x": 0,
+  "y": 0,
+  "name": "compnent",
+  "0": {
+    "x": -34,
+    "y": -55.05,
+    "w": 281.8,
+    "h": 34,
+    "name": "",
+    "type": "text",
+    "r": 0,
+    "txt": "t_library.thermal.sensorPressure",
+    "a": "left",
+    "f": "22px 'Helvetica'",
+    "c": "#ACB0CB",
+    "wrap": false
+  },
+  "1": {
+    "x": 99.5,
+    "y": 114.5,
+    "name": "flabelP",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "shape",
+      "path": [
+        255, 0, 0, 2, 0, 20, 2, 20, 20, 2, 20, 0, 2, 0, 0, 2, 0, 0, 1, 1,
+        16711680, 33
+      ]
+    }
+  },
+  "2": {
+    "x": 58,
+    "y": 0,
+    "w": 182,
+    "h": 34,
+    "name": "txt",
+    "type": "text",
+    "r": 0,
+    "txt": "0",
+    "a": "right",
+    "f": "30px 'SimSun'",
+    "c": "#000000",
+    "wrap": true
+  },
+  "3": {
+    "x": 0,
+    "y": 0.2,
+    "name": "bg",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "Bitmap 1",
+      "x": -252,
+      "y": -96,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  }
+}

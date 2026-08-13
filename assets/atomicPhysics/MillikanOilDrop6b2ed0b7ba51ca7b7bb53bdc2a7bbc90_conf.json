@@ -1,0 +1,718 @@
+{
+  "type": "sprite",
+  "x": 0,
+  "y": 0,
+  "name": "",
+  "0": {
+    "x": 145,
+    "y": -159,
+    "name": "hideMc",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "oilDrop.png",
+      "x": -5,
+      "y": -5,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "1": {
+    "type": "bitmap",
+    "libName": "透明罩.png",
+    "x": -213,
+    "y": -88,
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "skewX": 0,
+    "skewY": 0
+  },
+  "2": {
+    "x": 24,
+    "y": 17,
+    "name": "rot1",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "左右调节旋钮.png",
+      "x": -7,
+      "y": -7,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    },
+    "1": {
+      "x": 0,
+      "y": 0,
+      "name": "",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "shape",
+        "path": [
+          255, 14, -14, 2, -14, -14, 2, -14, 14, 2, 14, 14, 2, 14, -14, 2, 14,
+          -14, 1, 0, -615513, 33
+        ]
+      }
+    }
+  },
+  "3": {
+    "x": 133,
+    "y": 98,
+    "name": "rot0",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "Bitmap 1",
+      "x": -33,
+      "y": -33,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    },
+    "1": {
+      "type": "bitmap",
+      "libName": "高压调解指针.png",
+      "x": -17,
+      "y": -17,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "4": {
+    "x": 515,
+    "y": 143,
+    "name": "light1",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "关1.png",
+        "x": -14,
+        "y": -14,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "开1.png",
+        "x": -14,
+        "y": -14,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "5": {
+    "x": -213,
+    "y": 110,
+    "name": "light0",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "关.png",
+        "x": -21,
+        "y": -21,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "开.png",
+        "x": -21,
+        "y": -21,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "6": {
+    "x": -143.5,
+    "y": 118,
+    "name": "switch0",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "switch_off.png",
+        "x": -33.5,
+        "y": -16,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "switch_on.png",
+        "x": -33.5,
+        "y": -16,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "7": {
+    "x": 61.5,
+    "y": 105,
+    "name": "pull0",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "1.png",
+        "x": -16,
+        "y": -17,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "2.png",
+        "x": -16,
+        "y": -17,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "8": {
+    "x": -12,
+    "y": 77,
+    "name": "scroll1",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "上下调节.png",
+      "x": -12,
+      "y": -9,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "9": {
+    "x": -42,
+    "y": 77,
+    "name": "scroll0",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "上下调节.png",
+      "x": -12,
+      "y": -9,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "10": {
+    "x": 21.5,
+    "y": -17.5,
+    "name": "camera",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "摄像机.png",
+      "x": -133.5,
+      "y": -61.5,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "11": {
+    "x": 1,
+    "y": 68.15,
+    "name": "sbar1",
+    "type": "sprite",
+    "r": 0,
+    "sx": 3.595001220703125,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "shape",
+      "path": [
+        255, 0, 5, 2, 70.05, 5, 2, 70.05, -5, 2, 0, -5, 2, 0, 5, 2, 0, 5, 1,
+        0.4980392156862745, -1, 33
+      ]
+    }
+  },
+  "12": {
+    "x": -47.3,
+    "y": 68.15,
+    "name": "sbar0",
+    "type": "sprite",
+    "r": 0,
+    "sx": 3.4999847412109375,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "shape",
+      "path": [
+        255, 0, 5, 2, 70.05, 5, 2, 70.05, -5, 2, 0, -5, 2, 0, 5, 2, 0, 5, 1,
+        0.4980392156862745, -1, 33
+      ]
+    }
+  },
+  "13": {
+    "x": -519,
+    "y": 168,
+    "name": "sprayer",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "ya_1.png",
+        "x": -66,
+        "y": -35,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "ya_2.png",
+        "x": -66,
+        "y": -35,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "ya_3.png",
+        "x": -66,
+        "y": -35,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "3": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "ya_4.png",
+        "x": -66,
+        "y": -35,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "4": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "ya_5.png",
+        "x": -66,
+        "y": -35,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "5": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "ya_6.png",
+        "x": -66,
+        "y": -35,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "14": {
+    "type": "bitmap",
+    "libName": "输油管.png",
+    "x": -484,
+    "y": -64,
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "skewX": 0,
+    "skewY": 0
+  },
+  "15": {
+    "x": -47,
+    "y": 70.5,
+    "name": "bg",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "x": 159.55,
+      "y": 62.7,
+      "w": 41.15,
+      "h": 15.2,
+      "name": "t5",
+      "type": "text",
+      "r": 0,
+      "txt": "平衡电压",
+      "a": "center",
+      "f": "8px 'Arial'",
+      "c": "#5B5B5B"
+    },
+    "1": {
+      "x": 88.95,
+      "y": 48,
+      "w": 41.15,
+      "h": 15.2,
+      "name": "t4",
+      "type": "text",
+      "r": 0,
+      "txt": "计时/停",
+      "a": "center",
+      "f": "8px 'Arial'",
+      "c": "#5B5B5B"
+    },
+    "2": {
+      "x": 46.35,
+      "y": 56.5,
+      "w": 37,
+      "h": 15.9,
+      "name": "t3",
+      "type": "text",
+      "r": 0,
+      "txt": "下落",
+      "a": "left",
+      "f": "8px 'Arial'",
+      "c": "#5B5B5B"
+    },
+    "3": {
+      "x": 46.35,
+      "y": 24.75,
+      "w": 37,
+      "h": 15.2,
+      "name": "t2",
+      "type": "text",
+      "r": 0,
+      "txt": "平衡",
+      "a": "left",
+      "f": "8px 'Arial'",
+      "c": "#5B5B5B"
+    },
+    "4": {
+      "x": 46.35,
+      "y": -7,
+      "w": 36,
+      "h": 15.2,
+      "name": "t1",
+      "type": "text",
+      "r": 0,
+      "txt": "提升",
+      "a": "left",
+      "f": "8px 'Arial'",
+      "c": "#5B5B5B"
+    },
+    "5": {
+      "x": -210,
+      "y": -17,
+      "name": "logo",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 4",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "6": {
+      "x": -187,
+      "y": 52,
+      "name": "pTxt",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 3",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "7": {
+      "type": "bitmap",
+      "libName": "密立根滴油仪.png",
+      "x": -255,
+      "y": -127.5,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    },
+    "8": {
+      "type": "shape",
+      "path": [
+        255, 116.5, -259.7, 2, -168.5, -259.7, 2, -168.5, 255, 2, 116.5, 255, 2,
+        116.5, -259.7, 2, 116.5, -259.7, 1, 0.00392156862745098, 0, 33
+      ]
+    }
+  },
+  "16": {
+    "x": 396.5,
+    "y": -43,
+    "name": "monitor",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "x": -137,
+      "y": 157,
+      "name": "logo",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 2",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "type": "bitmap",
+      "libName": "显示器.png",
+      "x": -216,
+      "y": -154,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    },
+    "2": {
+      "type": "bitmap",
+      "libName": "表格.png",
+      "x": -125,
+      "y": -125,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    },
+    "3": {
+      "type": "bitmap",
+      "libName": "屏幕.png",
+      "x": -131,
+      "y": -131,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "17": {
+    "x": -17.45,
+    "y": -1,
+    "name": "alphaSP",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1.321197509765625,
+    "sy": 1.115020751953125,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "shape",
+      "path": [
+        255, -174, -278.95, 2, -174, 580, 2, 182.95, 580, 2, 182.95, -278.95, 2,
+        -174, -278.95, 2, -174, -278.95, 1, 0, 3368550, 33
+      ]
+    }
+  }
+}

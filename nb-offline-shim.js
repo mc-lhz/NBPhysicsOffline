@@ -289,10 +289,12 @@
     } catch (e) { return false; }
   }
 
-  // 本地静态资源缺失时的源站兜底域名：assets.nobook.com 开放 CORS（ACAO:*），
-  // 浏览器可跨域真抓缺失的器材/场景 JSON，返回真实数据（避免 {} 占位导致器材构建崩溃）。
+  // 本地静态资源缺失时的源站兜底域名：wl.nobook.com（真实源站，路径保持 /assets/...）。
+  // 注意：wl.nobook.com 不返回 CORS 头，浏览器跨域真抓会被拦；本兜底仅作安全网。
+  // 正确做法是预镜像（mirror_equipment_json.py）把器材/场景配置 JSON 落到本地 assets/，
+  // 这样离线运行时请求命中本地文件、永远不触发兜底，从根本上消除 {} 占位导致的器材构建崩溃。
   var EMPTY_ASSET = '{}';
-  var CDN_ORIGIN = 'https://assets.nobook.com';
+  var CDN_ORIGIN = 'https://wl.nobook.com';
   function toCdnUrl(localUrl) {
     try {
       var u = new URL(localUrl, location.href);
@@ -338,8 +340,9 @@
   };
 
   /* ---------- 3.7 本地静态资源 404 兜底（fetch 通道） ----------
-   * 本地 assets/ 下器材/场景 JSON 缺失时，从源站 assets.nobook.com（CORS 开放）真抓真实数据
-   * 返回（消除 PIXI 加载器对 404 的无限重试），且避免 {} 占位导致器材构建崩溃。
+   * 本地 assets/ 下器材/场景 JSON 缺失时，从源站 wl.nobook.com（路径保持 /assets/...）真抓真实数据
+   * 返回（消除 PIXI 加载器对 404 的无限重试）。注意 wl.nobook.com 无 CORS，浏览器跨域会被拦；
+   * 故正确做法是预镜像到本地 assets/，本兜底仅作安全网，避免 {} 占位导致器材构建崩溃。
    * 仅源站也 404 才退回 EMPTY_ASSET='{}' 占位。 */
   function fetchLocalAsset(input, init) {
     var label = typeof input === 'string' ? input : (input && input.url) || '';
@@ -441,7 +444,7 @@
   };
 
   /* ---------- 5.4 本地静态资源 404 兜底（XHR 通道） ----------
-   * 器材/场景 JSON 在 mirror 时可能漏抓 → 线上 404。本地缺失时跨域真抓 assets.nobook.com 真实数据返回，
+   * 器材/场景 JSON 在 mirror 时可能漏抓 → 线上 404。本地缺失时跨域真抓 wl.nobook.com 真实数据返回（注意该域无 CORS，
    * 消除 PIXI 加载器无限重试且避免 {} 占位导致器材构建崩溃。仅源站也 404 才退回 EMPTY_ASSET='{}'。 */
   function sendLocalAssetXHR(self, bodyArg) {
     var method = self.__nbMethod || 'GET';

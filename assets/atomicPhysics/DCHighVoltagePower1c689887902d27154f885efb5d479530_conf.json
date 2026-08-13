@@ -1,0 +1,294 @@
+{
+  "type": "sprite",
+  "x": 0,
+  "y": 0,
+  "name": "",
+  "0": {
+    "x": -144,
+    "y": 71,
+    "name": "switchBtn",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "switch_off.png",
+        "x": -33.5,
+        "y": -16,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "switch_on.png",
+        "x": -33.5,
+        "y": -16,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "1": {
+    "x": -56,
+    "y": 68,
+    "name": "light",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "关.png",
+        "x": -10,
+        "y": -10,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "开.png",
+        "x": -10,
+        "y": -10,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "2": {
+    "type": "bitmap",
+    "libName": "旋转中心.png",
+    "x": 84,
+    "y": 8,
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "skewX": 0,
+    "skewY": 0
+  },
+  "3": {
+    "x": 47,
+    "y": 67,
+    "name": "bp1",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "shape",
+      "path": [
+        255, 10, -10, 2, -10, -10, 2, -10, 10, 2, 10, 10, 2, 10, -10, 2, 10,
+        -10, 1, 1, 16777215, 33
+      ]
+    }
+  },
+  "4": {
+    "x": 142,
+    "y": 68,
+    "name": "bp0",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "shape",
+      "path": [
+        255, 10, -10, 2, -10, -10, 2, -10, 10, 2, 10, 10, 2, 10, -10, 2, 10,
+        -10, 1, 1, 16777215, 33
+      ]
+    }
+  },
+  "5": {
+    "x": 104.25,
+    "y": 28.35,
+    "name": "pointer",
+    "type": "sprite",
+    "r": -0.8377654978083304,
+    "sx": 0.9999542236328125,
+    "sy": 0.9999542236328125,
+    "a": 1,
+    "skewX": -0.8377654978083304,
+    "skewY": -0.8377654978083304,
+    "0": {
+      "type": "bitmap",
+      "libName": "指针.png",
+      "x": -5.5,
+      "y": -81,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "6": {
+    "x": -62.85,
+    "y": 1.05,
+    "name": "rot0",
+    "type": "sprite",
+    "r": 0,
+    "sx": 0.9999542236328125,
+    "sy": 0.9999542236328125,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "旋钮指针.png",
+      "x": -17,
+      "y": -17,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    },
+    "1": {
+      "type": "bitmap",
+      "libName": "Bitmap 1",
+      "x": -32.5,
+      "y": -32.5,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "7": {
+    "x": 0,
+    "y": 0,
+    "name": "bg",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "x": -169,
+      "y": -25,
+      "name": "logoSP",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "bitmap",
+        "libName": "logoSP.png",
+        "x": -21.5,
+        "y": -52.5,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "x": 77.1,
+      "y": 59.4,
+      "w": 53.85,
+      "h": 32.4,
+      "name": "",
+      "type": "text",
+      "r": 0,
+      "txt": "t_hv_output",
+      "a": "center",
+      "f": "10px 'Microsoft YaHei'",
+      "c": "#57585E",
+      "wrap": true
+    },
+    "2": {
+      "x": -60.9,
+      "y": 57.8,
+      "w": 53.85,
+      "h": 32.4,
+      "name": "",
+      "type": "text",
+      "r": 0,
+      "txt": "t_tip",
+      "a": "center",
+      "f": "10px 'Microsoft YaHei'",
+      "c": "#57585E",
+      "wrap": true
+    },
+    "3": {
+      "x": -114.9,
+      "y": 57.8,
+      "w": 53.85,
+      "h": 32.4,
+      "name": "",
+      "type": "text",
+      "r": 0,
+      "txt": "t_overload",
+      "a": "center",
+      "f": "10px 'Microsoft YaHei'",
+      "c": "#57585E",
+      "wrap": true
+    },
+    "4": {
+      "x": -115,
+      "y": 33.4,
+      "w": 104,
+      "h": 17.2,
+      "name": "",
+      "type": "text",
+      "r": 0,
+      "txt": "t_voltage_regulation",
+      "a": "center",
+      "f": "10px 'Microsoft YaHei'",
+      "c": "#57585E",
+      "wrap": true
+    },
+    "5": {
+      "type": "bitmap",
+      "libName": "直流高压电源.png",
+      "x": -216,
+      "y": -108,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  }
+}

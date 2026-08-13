@@ -1,0 +1,50 @@
+{
+  "type": "sprite",
+  "x": 0,
+  "y": 0,
+  "name": "",
+  "0": {
+    "x": -89.55,
+    "y": -29,
+    "w": 171.05,
+    "h": 27.8,
+    "name": "",
+    "type": "text",
+    "r": 0,
+    "txt": "t_displacement_sensor_send",
+    "a": "left",
+    "f": "14px 'Helvetica'",
+    "c": "#ACAFC6",
+    "wrap": false
+  },
+  "1": {
+    "x": 0,
+    "y": 0,
+    "name": "bg",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "Bitmap 1",
+      "x": -102,
+      "y": -56,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "2": {
+    "type": "shape",
+    "path": [
+      255, -15.95, 127, 2, -15.95, 154, 2, 8.05, 154, 2, 8.05, 127, 2, -15.95,
+      127, 2, -15.95, 127, 1, 0, -52327, 33
+    ]
+  }
+}
