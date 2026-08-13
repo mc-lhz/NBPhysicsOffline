@@ -359,7 +359,7 @@
     var label = typeof input === 'string' ? input : (input && input.url) || '';
     return rawFetch(input, init).then(function (res) {
       if (res.ok) return res;
-      // 本地缺失 → 源站 assets.nobook.com 真抓（CORS 开放），返回真实器材数据
+      // 本地缺失 → 源站 wl.nobook.com 真抓（无 CORS，浏览器实际取不到；本地已预镜像才是根本修复）
       var cdn = toCdnUrl(label);
       if (cdn) {
         log('local asset 404(fetch) → 源站兜底', label);
@@ -388,9 +388,10 @@
     } catch (e) { return false; }
   }
 
-  // 本地静态资源缺失时的源站兜底域名：assets.nobook.com 开放 CORS（ACAO:*），
-  // 浏览器可跨域真抓缺失的器材/场景 JSON，返回真实数据（避免 {} 占位导致器材构建崩溃）。
-  var CDN_ORIGIN = 'https://assets.nobook.com';
+  // 本地静态资源缺失时的源站兜底域名：器材/场景资源真源是 wl.nobook.com（assets/ 路径）。
+  // 注意：该源站无 CORS，浏览器运行时跨域真抓会被拦，故本地预镜像（mirror_equipment_*.py）才是根本修复；
+  // 此处仅作安全网，缺失文件兜底仍可能落到 EMPTY_ASSET='{}'。
+  var CDN_ORIGIN = 'https://wl.nobook.com';
   function toCdnUrl(localUrl) {
     try {
       var u = new URL(localUrl, location.href);
@@ -516,7 +517,7 @@
           if (res.ok) {
             return res.text().then(function (t) { respondXHR(self, t); });
           }
-          // 本地缺失 → 源站 assets.nobook.com 真抓（CORS 开放），返回真实器材数据
+          // 本地缺失 → 源站 wl.nobook.com 真抓（无 CORS，浏览器实际取不到；本地已预镜像才是根本修复）
           var cdn = toCdnUrl(url);
           if (cdn) {
             log('local asset 404(xhr) → 源站兜底', url);

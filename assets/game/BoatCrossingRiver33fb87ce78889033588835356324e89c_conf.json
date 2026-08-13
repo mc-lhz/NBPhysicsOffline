@@ -1,0 +1,202 @@
+{
+  "type": "sprite",
+  "x": 0,
+  "y": 0,
+  "name": "compnent",
+  "0": {
+    "x": 145.95,
+    "y": 174.05,
+    "name": "dotCir",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "dotcir.png",
+      "x": -23,
+      "y": -19,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "1": {
+    "x": 991.45,
+    "y": 263.9,
+    "name": "boat2",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "boata.png",
+        "x": -45,
+        "y": -52,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "boatb.png",
+        "x": -44,
+        "y": -52,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "2": {
+    "x": 0,
+    "y": 0,
+    "name": "bg",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "x": 1349.85,
+      "y": 354.9,
+      "name": "boat",
+      "type": "nbMovie",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "index": 1,
+        "0": {
+          "type": "bitmap",
+          "libName": "boata.png",
+          "x": -45,
+          "y": -52,
+          "r": 0,
+          "sx": 1,
+          "sy": 1,
+          "skewX": 0,
+          "skewY": 0
+        }
+      },
+      "1": {
+        "index": 1,
+        "0": {
+          "type": "bitmap",
+          "libName": "boatb.png",
+          "x": -44,
+          "y": -52,
+          "r": 0,
+          "sx": 1,
+          "sy": 1,
+          "skewX": 0,
+          "skewY": 0
+        }
+      }
+    },
+    "1": {
+      "x": 0,
+      "y": 0,
+      "name": "backSP",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "x": 0,
+        "y": 0,
+        "name": "top",
+        "type": "sprite",
+        "r": 0,
+        "sx": 1.0007781982421875,
+        "sy": 1,
+        "a": 1,
+        "skewX": 0,
+        "skewY": 0,
+        "0": {
+          "type": "bitmap",
+          "libName": "edgeTop.png",
+          "x": 0,
+          "y": 0,
+          "r": 0,
+          "sx": 1,
+          "sy": 1,
+          "skewX": 0,
+          "skewY": 0
+        }
+      },
+      "1": {
+        "x": 0,
+        "y": 642,
+        "name": "bottom",
+        "type": "sprite",
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "a": 1,
+        "skewX": 0,
+        "skewY": 0,
+        "0": {
+          "type": "bitmap",
+          "libName": "btm.png",
+          "x": 0,
+          "y": 0,
+          "r": 0,
+          "sx": 0.9937744140625,
+          "sy": 1,
+          "skewX": 0,
+          "skewY": 0
+        }
+      },
+      "2": {
+        "x": 0,
+        "y": 0,
+        "name": "waterTop",
+        "type": "sprite",
+        "r": 0,
+        "sx": 0.999603271484375,
+        "sy": 0.8381805419921875,
+        "a": 1,
+        "skewX": 0,
+        "skewY": 0,
+        "0": {
+          "type": "bitmap",
+          "libName": "waterTop.png",
+          "x": 0,
+          "y": 0,
+          "r": 0,
+          "sx": 1,
+          "sy": 1,
+          "skewX": 0,
+          "skewY": 0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "sprite",
+  "x": 0,
+  "y": 0,
+  "name": "compoent",
+  "0": {
+    "x": -9,
+    "y": -15,
+    "name": "bg",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "Group 1000001928.png",
+      "x": -115,
+      "y": -120,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  }
+}

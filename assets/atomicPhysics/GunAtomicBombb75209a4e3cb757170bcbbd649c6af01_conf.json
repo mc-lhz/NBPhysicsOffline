@@ -1,0 +1,109 @@
+{
+  "type": "sprite",
+  "x": 0,
+  "y": 0,
+  "name": "",
+  "0": {
+    "x": -81.9,
+    "y": 77.8,
+    "name": "youdan",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "Bitmap 1",
+      "x": -2.15,
+      "y": -74.95,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "1": {
+    "x": 196.15,
+    "y": -74.55,
+    "name": "youba",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "Bitmap 1",
+      "x": 0,
+      "y": -37.8,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "2": {
+    "x": -121.95,
+    "y": -76.6,
+    "name": "zhayao",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "Bitmap 1",
+      "x": -1,
+      "y": -36.8,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "3": {
+    "x": 0,
+    "y": 4.95,
+    "name": "bg",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "电磁圈.png",
+      "x": -112.45,
+      "y": -13.5,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    },
+    "1": {
+      "type": "bitmap",
+      "libName": "枪式原子弹.png",
+      "x": -293,
+      "y": -98.5,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  }
+}

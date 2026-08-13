@@ -1,0 +1,1618 @@
+{
+  "type": "sprite",
+  "x": 0,
+  "y": 0,
+  "name": "",
+  "0": {
+    "type": "bitmap",
+    "libName": "Bitmap 3",
+    "x": -53,
+    "y": -305,
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "skewX": 0,
+    "skewY": 0
+  },
+  "1": {
+    "type": "bitmap",
+    "libName": "Bitmap 2",
+    "x": -31,
+    "y": -364,
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "skewX": 0,
+    "skewY": 0
+  },
+  "2": {
+    "type": "bitmap",
+    "libName": "Bitmap 1",
+    "x": -53,
+    "y": -404,
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "skewX": 0,
+    "skewY": 0
+  },
+  "3": {
+    "x": 63,
+    "y": -316.6,
+    "name": "wBtn",
+    "type": "button",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "scaleButtonUp.png",
+      "r": 0,
+      "sx": 1,
+      "sy": 1
+    },
+    "1": {
+      "type": "bitmap",
+      "libName": "scaleButtonDown.png",
+      "r": 0,
+      "sx": 1,
+      "sy": 1
+    },
+    "2": {
+      "type": "bitmap",
+      "libName": "scaleButtonDown.png",
+      "r": 0,
+      "sx": 1,
+      "sy": 1
+    }
+  },
+  "4": {
+    "x": 63,
+    "y": -368.4,
+    "name": "rBtn",
+    "type": "button",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "scaleButtonUp.png",
+      "r": 0,
+      "sx": 1,
+      "sy": 1
+    },
+    "1": {
+      "type": "bitmap",
+      "libName": "scaleButtonDown.png",
+      "r": 0,
+      "sx": 1,
+      "sy": 1
+    },
+    "2": {
+      "type": "bitmap",
+      "libName": "scaleButtonDown.png",
+      "r": 0,
+      "sx": 1,
+      "sy": 1
+    }
+  },
+  "5": {
+    "x": 63,
+    "y": -420.2,
+    "name": "mBtn",
+    "type": "button",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "scaleButtonUp.png",
+      "r": 0,
+      "sx": 1,
+      "sy": 1
+    },
+    "1": {
+      "type": "bitmap",
+      "libName": "scaleButtonDown.png",
+      "r": 0,
+      "sx": 1,
+      "sy": 1
+    },
+    "2": {
+      "type": "bitmap",
+      "libName": "scaleButtonDown.png",
+      "r": 0,
+      "sx": 1,
+      "sy": 1
+    }
+  },
+  "6": {
+    "x": -14.5,
+    "y": -244.5,
+    "name": "startBtn",
+    "type": "button",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "buttonDown.png",
+      "r": 0,
+      "sx": 1,
+      "sy": 1
+    },
+    "1": {
+      "type": "bitmap",
+      "libName": "buttonUp.png",
+      "r": 0,
+      "sx": 1,
+      "sy": 1
+    },
+    "2": {
+      "type": "bitmap",
+      "libName": "buttonUp.png",
+      "r": 0,
+      "sx": 1,
+      "sy": 1
+    },
+    "3": {
+      "type": "bitmap",
+      "libName": "buttonUp.png",
+      "r": 0,
+      "sx": 1,
+      "sy": 1
+    }
+  },
+  "7": {
+    "x": 147.5,
+    "y": 53.55,
+    "name": "roker",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 4",
+        "x": -13,
+        "y": -12,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 5",
+        "x": -39,
+        "y": -9,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 6",
+        "x": -76,
+        "y": -10,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "3": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 7",
+        "x": -90,
+        "y": -23,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "4": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 8",
+        "x": -60,
+        "y": -64,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "5": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 9",
+        "x": -16,
+        "y": -79,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "6": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 10",
+        "x": -11,
+        "y": -67,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "7": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 11",
+        "x": -10,
+        "y": -26,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "8": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 12",
+        "x": -12,
+        "y": -13,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "8": {
+    "x": 247.5,
+    "y": -261,
+    "name": "baffleRight2",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 24",
+        "x": -7,
+        "y": 4,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 25",
+        "x": -75,
+        "y": 17,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 26",
+        "x": -122,
+        "y": 17,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "3": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 27",
+        "x": -132,
+        "y": 12,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "4": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 28",
+        "x": -104,
+        "y": 4,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "5": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 29",
+        "x": -75,
+        "y": 4,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "6": { "index": 0 },
+    "7": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 30",
+        "x": 21,
+        "y": 4,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "8": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 31",
+        "x": 20,
+        "y": 4,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "9": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 32",
+        "x": 19,
+        "y": 4,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "10": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 33",
+        "x": 14,
+        "y": 14,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "11": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 34",
+        "x": 6,
+        "y": 14,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "9": {
+    "x": -183,
+    "y": -271,
+    "name": "baffleLeft2",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 13",
+        "x": -8,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 14",
+        "x": -129,
+        "y": 18,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 15",
+        "x": -215,
+        "y": 16,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "3": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 16",
+        "x": -223,
+        "y": 14,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "4": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 17",
+        "x": -194,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "5": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 18",
+        "x": -104,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "6": { "index": 0 },
+    "7": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 19",
+        "x": 23,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "8": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 20",
+        "x": 22,
+        "y": 11,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "9": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 21",
+        "x": 21,
+        "y": 14,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "10": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 22",
+        "x": 14,
+        "y": 16,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "11": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 23",
+        "x": 5,
+        "y": 20,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "10": {
+    "x": -183,
+    "y": -271,
+    "name": "baffleLeft1",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 35",
+        "x": -8,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 36",
+        "x": -128,
+        "y": 17,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 37",
+        "x": -216,
+        "y": 16,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "3": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 38",
+        "x": -234,
+        "y": 14,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "4": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 39",
+        "x": -194,
+        "y": 11,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "5": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 40",
+        "x": -105,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "6": { "index": 0 },
+    "7": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 41",
+        "x": 24,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "8": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 42",
+        "x": 23,
+        "y": 8,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "9": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 43",
+        "x": 20,
+        "y": 13,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "10": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 44",
+        "x": 13,
+        "y": 18,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "11": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 45",
+        "x": 6,
+        "y": 18,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "11": {
+    "x": 247.5,
+    "y": -261,
+    "name": "baffleRight1",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 46",
+        "x": -7,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 47",
+        "x": -76,
+        "y": 10,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 48",
+        "x": -136,
+        "y": 11,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "3": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 49",
+        "x": -136,
+        "y": 11,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "4": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 50",
+        "x": -103,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "5": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 51",
+        "x": -74,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "6": { "index": 0 },
+    "7": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 52",
+        "x": 21,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "8": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 53",
+        "x": 22,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "9": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 54",
+        "x": 19,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "10": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 55",
+        "x": 12,
+        "y": 10,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "11": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 56",
+        "x": 5,
+        "y": 11,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "12": {
+    "x": 246.95,
+    "y": -146,
+    "name": "cylinderRight",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "x": 0,
+      "y": -72,
+      "name": "sleeve",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "bitmap",
+        "libName": "sleeve left.png",
+        "x": -24,
+        "y": -147,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "x": 0,
+      "y": 0,
+      "name": "spring",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "bitmap",
+        "libName": "spring left.png",
+        "x": -24,
+        "y": -80,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "type": "bitmap",
+      "libName": "cylinder left.png",
+      "x": -21,
+      "y": -233,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "13": {
+    "x": -181,
+    "y": -149,
+    "name": "cylinderLeft",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "x": 0,
+      "y": -72,
+      "name": "sleeve",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "bitmap",
+        "libName": "sleeve left.png",
+        "x": -24,
+        "y": -147,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "x": 0,
+      "y": 0,
+      "name": "spring",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "bitmap",
+        "libName": "spring left.png",
+        "x": -24,
+        "y": -80,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "type": "bitmap",
+      "libName": "cylinder left.png",
+      "x": -21,
+      "y": -233,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "14": {
+    "x": 247.5,
+    "y": -153.4,
+    "name": "armRight",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 72",
+        "x": -29,
+        "y": -17,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 73",
+        "x": -100.35,
+        "y": 51.75,
+        "r": -0.5934060867236738,
+        "sx": 0.9999237060546875,
+        "sy": 0.9999237060546875,
+        "skewX": -0.5934060867236738,
+        "skewY": -0.5934060867236738
+      }
+    },
+    "2": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 75",
+        "x": -136.45,
+        "y": 27.4,
+        "r": -0.26973614047980354,
+        "sx": 1.0000152587890625,
+        "sy": 1.0000152587890625,
+        "skewX": -0.26973614047980354,
+        "skewY": -0.26973614047980354
+      }
+    },
+    "3": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 76",
+        "x": -143,
+        "y": -10,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "4": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 77",
+        "x": -123,
+        "y": -46.1,
+        "r": 0.26547854484509387,
+        "sx": 1.000030517578125,
+        "sy": 1.000030517578125,
+        "skewX": 0.26547854484509387,
+        "skewY": 0.26547854484509387
+      }
+    },
+    "5": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 78",
+        "x": -62.6,
+        "y": -69.8,
+        "r": 0.6673381017453636,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0.6673381017453636,
+        "skewY": 0.6673381017453636
+      }
+    },
+    "6": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 79",
+        "x": -27,
+        "y": -16,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "7": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 80",
+        "x": -52.65,
+        "y": 26.55,
+        "r": -0.7416192571859627,
+        "sx": 1,
+        "sy": 1,
+        "skewX": -0.7416192571859627,
+        "skewY": -0.7416192571859627
+      }
+    },
+    "8": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 81",
+        "x": -64.6,
+        "y": 9.75,
+        "r": -0.29670091283296485,
+        "sx": 1.0000152587890625,
+        "sy": 1.0000152587890625,
+        "skewX": -0.29670091283296485,
+        "skewY": -0.29670091283296485
+      }
+    },
+    "9": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 82",
+        "x": -61,
+        "y": -11,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "10": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 83",
+        "x": -45.85,
+        "y": -26.1,
+        "r": 0.2604134787678722,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0.2604134787678722,
+        "skewY": 0.2604134787678722
+      }
+    },
+    "11": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 84",
+        "x": -24.1,
+        "y": -35.9,
+        "r": 0.5933746614228109,
+        "sx": 0.999969482421875,
+        "sy": 0.999969482421875,
+        "skewX": 0.5933746614228109,
+        "skewY": 0.5933746614228109
+      }
+    }
+  },
+  "15": {
+    "x": -181.95,
+    "y": -157.95,
+    "name": "armLeft",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 57",
+        "x": -29,
+        "y": -17,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 58",
+        "x": 34.85,
+        "y": -39.3,
+        "r": 0.9948435325911661,
+        "sx": 0.9999542236328125,
+        "sy": 0.9999542236328125,
+        "skewX": 0.9948435325911661,
+        "skewY": 0.9948435325911661
+      }
+    },
+    "2": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 59",
+        "x": 51.4,
+        "y": -23.7,
+        "r": 1.343906187196724,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 1.343906187196724,
+        "skewY": 1.343906187196724
+      }
+    },
+    "3": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 61",
+        "x": 62,
+        "y": -10,
+        "r": 1.5707047140533978,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 1.5707047140533978,
+        "skewY": 1.5707047140533978
+      }
+    },
+    "4": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 62",
+        "x": -202,
+        "y": -57.2,
+        "r": 0.23565114063620643,
+        "sx": 0.999969482421875,
+        "sy": 0.999969482421875,
+        "skewX": 0.23565114063620643,
+        "skewY": 0.23565114063620643
+      }
+    },
+    "5": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 63",
+        "x": -124,
+        "y": -56.5,
+        "r": -0.9599084517276156,
+        "sx": 0.9999847412109375,
+        "sy": 0.9999847412109375,
+        "skewX": -0.9599084517276156,
+        "skewY": -0.9599084517276156
+      }
+    },
+    "6": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 65",
+        "x": -25,
+        "y": -43,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "7": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 66",
+        "x": -58.8,
+        "y": 18.9,
+        "r": -0.5538235234418261,
+        "sx": 1,
+        "sy": 1,
+        "skewX": -0.5538235234418261,
+        "skewY": -0.5538235234418261
+      }
+    },
+    "8": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 67",
+        "x": -62.25,
+        "y": 3.8,
+        "r": -0.21746814197758144,
+        "sx": 1,
+        "sy": 1,
+        "skewX": -0.21746814197758144,
+        "skewY": -0.21746814197758144
+      }
+    },
+    "9": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 68",
+        "x": -60,
+        "y": -11,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "10": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 70",
+        "x": -45.8,
+        "y": -19,
+        "r": 0.2130704640695336,
+        "sx": 1.0000152587890625,
+        "sy": 1.0000152587890625,
+        "skewX": 0.2130704640695336,
+        "skewY": 0.2130704640695336
+      }
+    },
+    "11": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 71",
+        "x": -33.15,
+        "y": -34.65,
+        "r": 0.5098709791272674,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0.5098709791272674,
+        "skewY": 0.5098709791272674
+      }
+    }
+  },
+  "16": {
+    "x": 13,
+    "y": -103.45,
+    "name": "transmissionBeltFront",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Transmission belt front2.png",
+        "x": -291,
+        "y": -21,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Transmission belt front1.png",
+        "x": -270,
+        "y": -25,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "17": {
+    "type": "bitmap",
+    "libName": "Bitmap 86",
+    "x": 162,
+    "y": -169,
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "skewX": 0,
+    "skewY": 0
+  },
+  "18": {
+    "type": "bitmap",
+    "libName": "Bitmap 85",
+    "x": -312,
+    "y": -169,
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "skewX": 0,
+    "skewY": 0
+  },
+  "19": {
+    "x": 8.5,
+    "y": -153,
+    "name": "transmissionBeltBack",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Transmission belt back2.png",
+        "x": -189,
+        "y": 11,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Transmission belt back1.png",
+        "x": -188.5,
+        "y": -4,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "20": {
+    "x": 256,
+    "y": -33,
+    "name": "txtName",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "未标题-1.png",
+      "x": -37,
+      "y": -6,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "21": {
+    "type": "bitmap",
+    "libName": "desk.png",
+    "x": -343,
+    "y": -154,
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "skewX": 0,
+    "skewY": 0
+  }
+}

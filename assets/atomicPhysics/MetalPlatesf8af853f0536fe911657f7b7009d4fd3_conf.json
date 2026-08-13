@@ -1,0 +1,163 @@
+{
+  "type": "sprite",
+  "x": 0,
+  "y": 0,
+  "name": "",
+  "0": {
+    "x": -6,
+    "y": -118,
+    "name": "bp1",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "shape",
+      "path": [
+        255, 20, 0, 2, 0, 0, 2, 0, 20, 2, 20, 20, 2, 20, 0, 2, 20, 0, 1, 1,
+        16777215, 33
+      ]
+    }
+  },
+  "1": {
+    "x": -125.45,
+    "y": -2.95,
+    "name": "tipSp",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "Bitmap 1",
+      "x": 0.15,
+      "y": -0.1,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "2": {
+    "x": -6,
+    "y": 14,
+    "name": "bp0",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "shape",
+      "path": [
+        255, 20, 0, 2, 0, 0, 2, 0, 20, 2, 20, 20, 2, 20, 0, 2, 20, 0, 1, 1,
+        16777215, 33
+      ]
+    }
+  },
+  "3": {
+    "x": 0,
+    "y": 0,
+    "name": "bg",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "钨.png",
+        "x": -63,
+        "y": -140,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "锌.png",
+        "x": -63,
+        "y": -140,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "钙.png",
+        "x": -63,
+        "y": -140,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "3": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "钠.png",
+        "x": -63,
+        "y": -140,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "4": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "钾.png",
+        "x": -63,
+        "y": -140,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "5": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "铷.png",
+        "x": -63,
+        "y": -140,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "type": "sprite",
+  "x": 0,
+  "y": 0,
+  "name": "",
+  "0": {
+    "x": 324,
+    "y": 39,
+    "name": "stand",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "x": -56,
+      "y": -139,
+      "name": "maskMc",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "shape",
+        "path": [
+          255, 100, -29, 2, -100, -79, 2, -95, 32, 2, 94, 79, 2, 100, -29, 2,
+          100, -29, 1, 0, -65536, 33
+        ]
+      }
+    },
+    "1": {
+      "x": -56,
+      "y": -136,
+      "name": "keyShadow",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "bitmap",
+        "libName": "钥匙投影.png",
+        "x": -22.5,
+        "y": -39,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "x": -55,
+      "y": -138,
+      "name": "screenLight",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "bitmap",
+        "libName": "屏幕照亮.png",
+        "x": -78,
+        "y": -99.5,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "3": {
+      "type": "bitmap",
+      "libName": "铁架台.png",
+      "x": -159.5,
+      "y": -255,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "1": {
+    "x": 352,
+    "y": 460.5,
+    "name": "key",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "钥匙.png",
+      "x": -20,
+      "y": -42.5,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "2": {
+    "x": 125.5,
+    "y": 460,
+    "name": "book",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "x": 0,
+      "y": 0,
+      "name": "keyShadow",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "bitmap",
+        "libName": "钥匙投影.png",
+        "x": -22.5,
+        "y": -39,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "x": 1,
+      "y": 0,
+      "name": "bookShadow",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "bitmap",
+        "libName": "阴影.png",
+        "x": -100.5,
+        "y": -101,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "x": -99.5,
+      "y": -101,
+      "name": "enImg",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "bitmap",
+        "libName": "XRay.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "3": {
+      "x": -101.5,
+      "y": -101,
+      "name": "zhImg",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "bitmap",
+        "libName": "物理书.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "3": {
+    "x": 51,
+    "y": 106,
+    "name": "bp1",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "shape",
+      "path": [
+        255, 10, -10, 2, -10, -10, 2, -10, 10, 2, 10, 10, 2, 10, -10, 2, 10,
+        -10, 1, 1, 16777215, 33
+      ]
+    }
+  },
+  "4": {
+    "x": 50,
+    "y": -291,
+    "name": "bp0",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "shape",
+      "path": [
+        255, 10, -10, 2, -10, -10, 2, -10, 10, 2, 10, 10, 2, 10, -10, 2, 10,
+        -10, 1, 1, 16777215, 33
+      ]
+    }
+  },
+  "5": {
+    "x": 0,
+    "y": 0,
+    "name": "xTube",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "x射线管.png",
+      "x": -132,
+      "y": -291.5,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "6": {
+    "x": 71,
+    "y": -85,
+    "name": "xLight",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "光.png",
+      "x": -125,
+      "y": -184.5,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  }
+}

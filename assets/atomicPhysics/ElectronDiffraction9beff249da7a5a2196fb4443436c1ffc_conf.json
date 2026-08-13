@@ -1,0 +1,1016 @@
+{
+  "type": "sprite",
+  "x": 0,
+  "y": 0,
+  "name": "",
+  "0": {
+    "x": 78,
+    "y": -67,
+    "name": "num3",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_0.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_1.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_2.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "3": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_3.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "4": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_4.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "5": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_5.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "6": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_6.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "7": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_7.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "8": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_8.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "9": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_9.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "1": {
+    "type": "bitmap",
+    "libName": "red_dot.png",
+    "x": 140,
+    "y": -43,
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "skewX": 0,
+    "skewY": 0
+  },
+  "2": {
+    "x": 99,
+    "y": -67,
+    "name": "num2",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_0.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_1.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_2.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "3": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_3.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "4": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_4.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "5": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_5.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "6": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_6.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "7": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_7.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "8": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_8.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "9": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_9.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "3": {
+    "x": 120,
+    "y": -67,
+    "name": "num1",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_0.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_1.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_2.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "3": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_3.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "4": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_4.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "5": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_5.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "6": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_6.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "7": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_7.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "8": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_8.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "9": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_9.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "4": {
+    "x": 146,
+    "y": -66,
+    "name": "num0",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_0.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_1.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_2.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "3": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_3.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "4": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_4.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "5": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_5.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "6": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_6.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "7": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_7.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "8": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_8.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "9": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "red_9.png",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "5": {
+    "x": 187,
+    "y": 65.95,
+    "name": "rot3",
+    "type": "sprite",
+    "r": 0,
+    "sx": 0.9999847412109375,
+    "sy": 0.9999847412109375,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "Bitmap 1",
+      "x": -20,
+      "y": -20,
+      "r": 0,
+      "sx": 0.615386962890625,
+      "sy": 0.615386962890625,
+      "skewX": 0,
+      "skewY": 0
+    },
+    "1": {
+      "type": "bitmap",
+      "libName": "旋钮2.png",
+      "x": -11,
+      "y": -11,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "6": {
+    "x": 122,
+    "y": 65.95,
+    "name": "rot2",
+    "type": "sprite",
+    "r": 0,
+    "sx": 0.9999847412109375,
+    "sy": 0.9999847412109375,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "Bitmap 1",
+      "x": -20,
+      "y": -20,
+      "r": 0,
+      "sx": 0.615386962890625,
+      "sy": 0.615386962890625,
+      "skewX": 0,
+      "skewY": 0
+    },
+    "1": {
+      "type": "bitmap",
+      "libName": "旋钮2.png",
+      "x": -11,
+      "y": -11,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "7": {
+    "x": 55,
+    "y": 65.95,
+    "name": "rot1",
+    "type": "sprite",
+    "r": 0,
+    "sx": 0.9999847412109375,
+    "sy": 0.9999847412109375,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "Bitmap 1",
+      "x": -20,
+      "y": -20,
+      "r": 0,
+      "sx": 0.615386962890625,
+      "sy": 0.615386962890625,
+      "skewX": 0,
+      "skewY": 0
+    },
+    "1": {
+      "type": "bitmap",
+      "libName": "旋钮2.png",
+      "x": -11,
+      "y": -11,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "8": {
+    "x": 90,
+    "y": 109,
+    "name": "rot5",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "Bitmap 1",
+      "x": -20,
+      "y": -20,
+      "r": 0,
+      "sx": 0.615386962890625,
+      "sy": 0.615386962890625,
+      "skewX": 0,
+      "skewY": 0
+    },
+    "1": {
+      "type": "bitmap",
+      "libName": "旋钮2.png",
+      "x": -11,
+      "y": -11,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "9": {
+    "x": 24,
+    "y": 108.95,
+    "name": "rot4",
+    "type": "sprite",
+    "r": 0,
+    "sx": 0.9999847412109375,
+    "sy": 0.9999847412109375,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "Bitmap 1",
+      "x": -20,
+      "y": -20,
+      "r": 0,
+      "sx": 0.615386962890625,
+      "sy": 0.615386962890625,
+      "skewX": 0,
+      "skewY": 0
+    },
+    "1": {
+      "type": "bitmap",
+      "libName": "旋钮2.png",
+      "x": -11,
+      "y": -11,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "10": {
+    "x": 121,
+    "y": 6,
+    "name": "rot0",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "Bitmap 2",
+      "x": -29.95,
+      "y": -30.95,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    },
+    "1": {
+      "type": "bitmap",
+      "libName": "旋钮1.png",
+      "x": -12,
+      "y": -12,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "11": {
+    "x": 180.5,
+    "y": 120,
+    "name": "switchBtn",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "switch_off.png",
+        "x": -33.5,
+        "y": -16,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "switch_on.png",
+        "x": -33.5,
+        "y": -16,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "12": {
+    "x": -97,
+    "y": 9,
+    "name": "circle",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "显示区.png",
+      "x": -92,
+      "y": -92,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "13": {
+    "x": 0,
+    "y": -0.5,
+    "name": "bg",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "x": 40.15,
+      "y": -123,
+      "name": "logo",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 3",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "x": 61,
+      "y": 128.5,
+      "w": 64,
+      "h": 15.15,
+      "name": "",
+      "type": "text",
+      "r": 0,
+      "txt": "tran_y_disp",
+      "a": "center",
+      "f": "10px 'Arial'",
+      "c": "#000000"
+    },
+    "2": {
+      "x": -5,
+      "y": 128.5,
+      "w": 57,
+      "h": 15.15,
+      "name": "",
+      "type": "text",
+      "r": 0,
+      "txt": "tran_x_disp",
+      "a": "center",
+      "f": "10px 'Arial'",
+      "c": "#000000"
+    },
+    "3": {
+      "x": 155,
+      "y": 80.5,
+      "w": 66,
+      "h": 15.15,
+      "name": "",
+      "type": "text",
+      "r": 0,
+      "txt": "tran_a_focus",
+      "a": "center",
+      "f": "10px 'Arial'",
+      "c": "#000000"
+    },
+    "4": {
+      "x": 97,
+      "y": 80.5,
+      "w": 52,
+      "h": 18,
+      "name": "",
+      "type": "text",
+      "r": 0,
+      "txt": "tran_bright",
+      "a": "center",
+      "f": "10px 'Arial'",
+      "c": "#000000"
+    },
+    "5": {
+      "x": 20,
+      "y": 80.5,
+      "w": 72,
+      "h": 15.15,
+      "name": "",
+      "type": "text",
+      "r": 0,
+      "txt": "tran_focusing",
+      "a": "center",
+      "f": "10px 'Arial'",
+      "c": "#000000"
+    },
+    "6": {
+      "x": 82,
+      "y": 20.5,
+      "w": 78,
+      "h": 18,
+      "name": "",
+      "type": "text",
+      "r": 0,
+      "txt": "tran_h_vol",
+      "a": "center",
+      "f": "10px 'Arial'",
+      "c": "#FF0000"
+    },
+    "7": {
+      "type": "bitmap",
+      "libName": "电子衍射仪-1.png",
+      "x": -264,
+      "y": -166.5,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  }
+}

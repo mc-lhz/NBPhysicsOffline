@@ -1,0 +1,554 @@
+{
+  "type": "sprite",
+  "x": 0,
+  "y": 0,
+  "name": "",
+  "0": {
+    "x": 593.1,
+    "y": -250.05,
+    "name": "wenq",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "观察筒.png",
+      "x": -77,
+      "y": -77,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    },
+    "1": {
+      "type": "bitmap",
+      "libName": "观察筒上层.png",
+      "x": -77,
+      "y": -77,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "1": {
+    "x": 891.9,
+    "y": -114.9,
+    "name": "luor2",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "旋转纹理.png",
+      "x": -17.5,
+      "y": -167,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "2": {
+    "x": 789.95,
+    "y": -114.9,
+    "name": "luor",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "旋转纹理.png",
+      "x": -17.5,
+      "y": -167,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "3": {
+    "x": 590.35,
+    "y": -250.9,
+    "name": "wen",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "line1.png",
+        "x": -6,
+        "y": -67,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "line2.png",
+        "x": -6,
+        "y": -67,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "line3.png",
+        "x": -6,
+        "y": -67,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "3": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "line4.png",
+        "x": -12.5,
+        "y": -67,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "4": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "line5.png",
+        "x": -10,
+        "y": -67,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "4": {
+    "x": 591.1,
+    "y": -248.05,
+    "name": "wenhou",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "观察筒下.png",
+      "x": -77,
+      "y": -77,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "5": {
+    "x": 816,
+    "y": -249.9,
+    "name": "zhexiao",
+    "type": "sprite",
+    "r": 0,
+    "sx": 0.5384521484375,
+    "sy": 1.4838714599609375,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "shape",
+      "path": [
+        255, 31, -32.5, 2, -31, -32.5, 2, -31, 32.5, 2, 31, 32.5, 2, 31, -32.5,
+        2, 31, -32.5, 1, 0, -1, 33
+      ]
+    }
+  },
+  "6": {
+    "x": 770.1,
+    "y": -250.9,
+    "name": "luos",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "转动.png",
+      "x": -51,
+      "y": -45,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "7": {
+    "x": 744.6,
+    "y": -247.9,
+    "name": "luodi",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "底.png",
+      "x": -76.5,
+      "y": -34,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "8": {
+    "x": -388.15,
+    "y": -200.55,
+    "name": "lv",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "c1.png",
+        "x": -29.5,
+        "y": -29.5,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "c2.png",
+        "x": -29.5,
+        "y": -29.5,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "c3.png",
+        "x": -29.5,
+        "y": -29.5,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "3": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "c4.png",
+        "x": -29.5,
+        "y": -29.5,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "9": {
+    "x": -288.9,
+    "y": -200.55,
+    "name": "danf",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "双缝.png",
+      "x": -29.5,
+      "y": -29.5,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "10": {
+    "x": -189.65,
+    "y": -200.55,
+    "name": "shuangf",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 1",
+        "x": -29.5,
+        "y": -29.5,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 2",
+        "x": -29.5,
+        "y": -29.5,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 3",
+        "x": -29.5,
+        "y": -29.5,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "3": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 4",
+        "x": -29.5,
+        "y": -29.5,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "4": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 5",
+        "x": -29.5,
+        "y": -29.5,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "11": {
+    "x": -387.1,
+    "y": -198.55,
+    "name": "tip",
+    "type": "sprite",
+    "r": -0.466098198186289,
+    "sx": 0.9999847412109375,
+    "sy": 0.9999847412109375,
+    "a": 1,
+    "skewX": -0.466098198186289,
+    "skewY": -0.466098198186289,
+    "0": {
+      "type": "bitmap",
+      "libName": "tip.png",
+      "x": -47,
+      "y": -47,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "12": {
+    "x": 0,
+    "y": 0,
+    "name": "bg",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "x": 20.9,
+      "y": -115.05,
+      "name": "txt",
+      "type": "sprite",
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "a": 1,
+      "skewX": 0,
+      "skewY": 0,
+      "0": {
+        "type": "bitmap",
+        "libName": "Bitmap 7",
+        "x": 0,
+        "y": 0,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "type": "bitmap",
+      "libName": "Bitmap 6",
+      "x": -708,
+      "y": -160,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "13": {
+    "x": 611,
+    "y": -557.9,
+    "name": "scale2",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "glass.png",
+      "x": 0,
+      "y": 0,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "14": {
+    "x": 604,
+    "y": -561.9,
+    "name": "scale1",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "shape",
+      "path": [
+        255, 13.15, 93.45, 2, 237.45, 93.45, 236.323828125, 92.08515625, 235.1,
+        90.75, 3, 235.1, 90.75, 213.1, 66.85, 183.2, 38.4, 3, 183.2, 38.4,
+        153.3, 9.95, 108.9, 11.95, 3, 108.9, 11.95, 64.5, 13.95, 35.2, 50.25, 3,
+        35.2, 50.25, 19.2, 70.05, 13.55, 91.95, 3, 13.55, 91.95, 13.3642578125,
+        92.6927734375, 13.175, 93.45, 3, 0.4666666666666667, 65535, 33
+      ]
+    },
+    "1": {
+      "type": "bitmap",
+      "libName": "background.png",
+      "x": 0,
+      "y": 0,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  }
+}

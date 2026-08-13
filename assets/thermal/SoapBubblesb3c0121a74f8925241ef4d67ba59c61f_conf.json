@@ -1,0 +1,216 @@
+{
+  "type": "sprite",
+  "x": 0,
+  "y": 0,
+  "name": "compnent",
+  "0": {
+    "x": 653,
+    "y": -91,
+    "name": "lineBubble",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "a1.png",
+        "x": -180,
+        "y": -361,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "a2.png",
+        "x": -182,
+        "y": -367,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "a3.png",
+        "x": -182,
+        "y": -367,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "3": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "扎右边.png",
+        "x": -180,
+        "y": -362,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "4": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "0.png",
+        "x": -180,
+        "y": -361,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "1": {
+    "x": 1055.5,
+    "y": -92,
+    "name": "circleBubble",
+    "type": "nbMovie",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "b1.png",
+        "x": -180,
+        "y": -360,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "1": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "b2.png",
+        "x": -182,
+        "y": -367,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "2": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "b3.png",
+        "x": -182,
+        "y": -367,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "3": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "组 238.png",
+        "x": -180,
+        "y": -360,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    },
+    "4": {
+      "index": 1,
+      "0": {
+        "type": "bitmap",
+        "libName": "i.png",
+        "x": -180,
+        "y": -360,
+        "r": 0,
+        "sx": 1,
+        "sy": 1,
+        "skewX": 0,
+        "skewY": 0
+      }
+    }
+  },
+  "2": {
+    "x": -662.5,
+    "y": 49,
+    "name": "prick",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "针.png",
+      "x": -90.5,
+      "y": -121,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  },
+  "3": {
+    "x": 0,
+    "y": 0,
+    "name": "bg",
+    "type": "sprite",
+    "r": 0,
+    "sx": 1,
+    "sy": 1,
+    "a": 1,
+    "skewX": 0,
+    "skewY": 0,
+    "0": {
+      "type": "bitmap",
+      "libName": "Bitmap 2",
+      "x": -394,
+      "y": -287,
+      "r": 0,
+      "sx": 1,
+      "sy": 1,
+      "skewX": 0,
+      "skewY": 0
+    }
+  }
+}
